@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Ionic Stacks"
 
 [params]
   displayName = "EN"
@@ -12,14 +12,14 @@ title = "Blowfish"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+   copyright = "&copy; 2026 Yurou Celine Xiao"
 
 # [params.author]
-#   name = "Your name here"
+   name = "Yurou Celine Xiao"
 #   email = "youremail@example.com"
 #   image = "img/blowfish_logo.png"
 #   imageQuality = 96
-#   headline = "I'm only human"
+   headline = "Under construction..."
 #   bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
