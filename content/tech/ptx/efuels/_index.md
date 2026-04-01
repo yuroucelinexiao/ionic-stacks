@@ -1,5 +1,5 @@
 ---
-title: "Marine Carbon Dioxide Removal (mCDR)"
+title: "eFuels"
 date: 2026-03-30
 showDate: false
 showSummaryDate: false
@@ -8,6 +8,6 @@ showSummaryReadingTime: false
 showWordCount: false
 showPagination: false
 showTaxonomies: false
-description: "Electrochemical mCDR systems."
+description: "Sustainable SAF and SMF production pathways."
 ---
-Short blurb test for mCDR landing page.
+Short blurb test for eFuels landing page.

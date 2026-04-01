@@ -21,14 +21,62 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/cdr/mcdr/</loc>
+    <loc>http://localhost:1313/ionic-stacks/tech/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/ionic-stacks/tech/industry/cement/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/ptx/echemicals/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/ptx/efuels/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/cdr/mcdr/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/industry/minerals/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/ptx/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/ptx/syngas/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/industry/desalination/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/industry/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

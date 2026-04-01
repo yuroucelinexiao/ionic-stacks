@@ -31,6 +31,62 @@
   parent = "cdr"
   weight = 2
 
+# 2.0 Power-to-X (PtX)
+[[main]]
+  name = 'PtX'
+  pageRef = "tech/ptx"
+  identifier = "ptx"
+  weight = 20
+
+# 2.1 Syngas
+[[main]]
+  name = "Syngas"
+  pageRef = "tech/ptx/syngas"
+  parent = "ptx"
+  weight = 1
+
+# 2.2 eFuels
+[[main]]
+  name = "eFuels"
+  pageRef = "tech/ptx/efuels"
+  parent = "ptx"
+  weight = 2
+
+# 2.3 eChemicals
+[[main]]
+  name = "eChemicals"
+  pageRef = "tech/ptx/echemicals"
+  parent = "ptx"
+  weight = 3
+
+# 3.0 Industrial Decarbonization
+[[main]]
+  name = 'Industry'
+  pageRef = "tech/industry"
+  identifier = "industry"
+  weight = 30
+
+# 3.1 Minerals
+[[main]]
+  name = "Minerals"
+  pageRef = "tech/industry/minerals"
+  parent = "industry"
+  weight = 1
+
+# 3.2 Cement
+[[main]]
+  name = "Cement"
+  pageRef = "tech/industry/cement"
+  parent = "industry"
+  weight = 2
+
+# 3.3 Water Desalination
+[[main]]
+  name = "Desalination"
+  pageRef = "tech/industry/desalination"
+  parent = "industry"
+  weight = 3
+
 #[[main]]
 #  name = 'PtX'
 #  pageRef = "categories/ptx"

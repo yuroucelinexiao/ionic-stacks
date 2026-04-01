@@ -1,13 +1,14 @@
 ---
-title: "Marine Carbon Dioxide Removal (mCDR)"
-date: 2026-03-30
+title: "Industrial Decarbonization"
+date: 2026-03-29
 showDate: false
 showSummaryDate: false
+groupByYear: false
 showReadingTime: false
 showSummaryReadingTime: false
 showWordCount: false
 showPagination: false
 showTaxonomies: false
-description: "Electrochemical mCDR systems."
+description: "Industrial decarbonation"
 ---
-Short blurb test for mCDR landing page.
+Short blurb test for Industry landing page.
