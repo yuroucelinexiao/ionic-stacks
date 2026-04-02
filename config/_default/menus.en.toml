@@ -10,6 +10,11 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 1
+
 # 1.0 Carbon Dioxide Removal (CDR)
 [[main]]
   name = 'CDR'
@@ -86,16 +91,6 @@
   pageRef = "tech/industry/desalination"
   parent = "industry"
   weight = 3
-
-#[[main]]
-#  name = 'PtX'
-#  pageRef = "categories/ptx"
-#  weight = 20
-
-#[[main]]
-#  name = 'Industry'
-#  pageRef = "categories/industry"
-#  weight = 30
 
 #[[main]]
 #  name = "Blog"

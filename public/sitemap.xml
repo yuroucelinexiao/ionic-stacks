@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/ionic-stacks/about/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/ionic-stacks/tech/cdr/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10,12 +22,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/ionic-stacks/tech/cdr/dac/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
