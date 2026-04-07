@@ -5,7 +5,7 @@ showTableOfContents: true # This enables the scrolling sidebar
 showDate: false
 showWordCount: false
 showReadingTime: false
-_build:
+build:
   list: never
   render: always
 description: "About page that includes my mission statement, resume and cv downloads, and timeline"

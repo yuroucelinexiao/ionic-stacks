@@ -9,6 +9,7 @@ showWordCount: false
 showPagination: false
 showTaxonomies: false
 showTableOfContents: false
+layout: "simple"
 description: "Electrochemical DAC systems."
 ---
 
@@ -70,4 +71,4 @@ These electrodes are like "switchable CO&#8322; magnets." Rather than circulatin
 </div>
 
 ---
-{{< list title="Sifting the Skies" cardView=true limit=6 >}}
+{{<list title="Sifting the Skies" cardView=true limit=6 >}}
