@@ -9,7 +9,6 @@ showWordCount: false
 showPagination: false
 showTaxonomies: false
 showTableOfContents: false
-layout: "simple"
 description: "Electrochemical DAC systems."
 ---
 
