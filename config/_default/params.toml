@@ -17,7 +17,7 @@ enableStructuredBreadcrumbs = false
 
 replyByEmail = false
 
-mainSections = ["dac", "mcdr"]
+mainSections = ["tech","dac", "mcdr"]
 # robots = ""
 
 disableImageOptimization = false

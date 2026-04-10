@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Second Law on Ionic Stacks</title>
+    <link>http://localhost:1313/ionic-stacks/tags/second-law/</link>
+    <description>Recent content in Second Law on Ionic Stacks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2026 Yurou Celine Xiao</copyright>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/tags/second-law/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How much energy do we actually need to pull CO&lt;sub&gt;2&lt;/sub&gt; out of thin air?</title>
+      <link>http://localhost:1313/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/</guid>
+      <description>Technical foundations on minimum work, actual work, and second law efficiencies.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -3,20 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/</loc>
+    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/ionic-stacks/</loc>
     <lastmod>2026-04-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/cdr/dac/second-law/</loc>
-    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/cdr/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -63,12 +57,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/ptx/</loc>
-    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/ionic-stacks/tech/ptx/syngas/</loc>
     <lastmod>2026-03-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -76,12 +64,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/ionic-stacks/tech/industry/desalination/</loc>
-    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/industry/</loc>
     <lastmod>2026-03-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

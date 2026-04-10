@@ -223,7 +223,7 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Technical Library",
+    "articleSection": "Technical Index",
     "name": "Direct Air Capture (DAC)",
     "headline": "Direct Air Capture (DAC)",
     "description": "Electrochemical DAC systems.",
@@ -242,7 +242,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "275"
+    "wordCount": "284"
   }]
   </script>
 
@@ -537,6 +537,24 @@
         </div>
       </div>
     </div>
+  
+
+    
+      
+  
+    <a
+      href="/ionic-stacks/tech/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Tech Index"
+      title="Technical Index">
+      
+      
+        <span class="text-base font-medium break-normal">
+          Tech Index
+        </span>
+      
+    </a>
   
 
     
@@ -875,6 +893,23 @@
       
     </div>
   
+    
+    <div class="px-2">
+      <a
+        href="/ionic-stacks/tech/"
+        aria-label="Tech Index"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Technical Index" class="text-2xl font-bold tracking-tight">
+          Tech Index
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
 
         
   
@@ -913,7 +948,7 @@
       </h1>
     </header>
     <section class="max-w-full mt-6 prose dark:prose-invert">
-      <p>The air around us contains an average of 425 ppm (0.0425 vol%) of CO₂. This dilute concentration is precisely why DAC represents one of the greatest engineering challenges in climate tech: it is an absolute uphill battle against thermodynamics. While conventional carbon capture relies on heat for the regeneration process, electrochemistry can drive the separation using electrons, allowing the system to operate entirely on a renewable grid.</p>
+      <p>The air around us contains an average of 425 ppm (0.0425 vol%) of CO<sub>2</sub>. This dilute concentration is precisely why DAC represents one of the greatest engineering challenges in climate tech: it is an absolute uphill battle against thermodynamics. While conventional carbon capture relies on heat for the regeneration process, electrochemistry can drive the separation using electrons, allowing the system to operate entirely on a renewable grid.</p>
 <hr>
 
 <h3 class="relative group">pH-Swing Architecture
@@ -925,7 +960,7 @@
     </span>
     
 </h3>
-<p>The behaviour of CO₂ is determined by the acidity (pH) of its environment. In an alkaline solvent, CO₂ is captured and held in a stable, dissolved state. The electrochemical stack uses electricity to simultaneously generates acidic and alkaline conditions to shift this balance. The acid is used to release a CO₂ as a concentrated gas, while the base regenerates the capture solvent so that it can capture more CO₂, completing the loop.</p>
+<p>The behaviour of CO<sub>2</sub> is determined by the acidity (pH) of its environment. In an alkaline solvent, CO<sub>2</sub> is captured and held in a stable, dissolved state. The electrochemical stack uses electricity to simultaneously generates acidic and alkaline conditions to shift this balance. The acid is used to release a CO<sub>2</sub> as a concentrated gas, while the base regenerates the capture solvent so that it can capture more CO<sub>2</sub>, completing the loop.</p>
 <div style="max-width: 700px; margin: 0 auto;">
 <pre class="not-prose mermaid">
   flowchart LR
@@ -934,12 +969,12 @@
     Ambient[/"Ambient Air"/]
     Contactor["Air Contactor"]
     Stack[["Stack"]]
-    Pure[/"High-Purity CO&#8322;"/]
+    Pure[/"High-Purity CO<sub>2</sub>"/]
 
   %% define the flow
     Ambient --> Contactor
-    Contactor -->|CO&#8322;-Rich| Stack
-    Stack --> |CO&#8322;-Lean| Contactor
+    Contactor -->|CO<sub>2</sub>-Rich| Stack
+    Stack --> |CO<sub>2</sub>-Lean| Contactor
     Stack --> Pure
 
    %% styling
@@ -960,15 +995,15 @@
     </span>
     
 </h3>
-<p>These electrodes are like &ldquo;switchable CO₂ magnets.&rdquo; Rather than circulating liquid electrolytes, this architecture relies on redox-active electrodes that change their chemical affinity based on the applied voltage. The system captures CO₂ while in a reduced state and releases it in an oxidized state when the polarity is reversed.</p>
-<div style="max-width: 450px; margin: 0 auto;">
+<p>These electrodes are like &ldquo;switchable CO<sub>2</sub> magnets.&rdquo; Rather than circulating liquid electrolytes, this architecture relies on redox-active electrodes that change their chemical affinity based on the applied voltage. The system captures CO<sub>2</sub> while in a reduced state and releases it in an oxidized state when the polarity is reversed.</p>
+<div style="max-width: 460px; margin: 0 auto;">
 <pre class="not-prose mermaid">
   flowchart LR
 
   %% define the nodes
     Ambient[/"Ambient Air"/]
     Stack[["Stack"]]
-    Pure[/"High-Purity CO&#8322;"/]
+    Pure[/"High-Purity CO<sub>2</sub>"/]
 
   %% define the flow
     Ambient --> Stack
@@ -1020,12 +1055,14 @@
 
     
     
-      
-      
-    
 
     
     
+      
+        
+        
+          
+        
       
     
   
@@ -1035,16 +1072,25 @@
 <article
   class="article-link--card relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
+    <div class="flex-none relative overflow-hidden thumbnail_card">
+      <img
+        src="/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/featured_hu_c5a17a670762cee3.png"
+        role="presentation"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
   
   <div class="p-4">
     <header>
       <a
         
-          href="/ionic-stacks/tech/cdr/dac/second-law/"
+          href="/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/"
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
-          The Thermodynamics of Carbon Separation
+          How much energy do we actually need to pull CO<sub>2</sub> out of thin air?
           
         </h2>
       </a>
@@ -1094,7 +1140,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-06T00:00:00&#43;00:00">April 6 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2026-04-06T00:00:00&#43;00:00">April 6 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
 
     

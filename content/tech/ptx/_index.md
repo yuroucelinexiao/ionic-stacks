@@ -9,6 +9,9 @@ showSummaryReadingTime: false
 showWordCount: false
 showPagination: false
 showTaxonomies: false
+build:
+  list: never
+  render: always
 description: "Pathways for power-to-X technologies."
 ---
 Short blurb test for PtX landing page.

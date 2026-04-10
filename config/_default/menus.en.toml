@@ -92,6 +92,12 @@
   parent = "industry"
   weight = 3
 
+# 4.0 Technical Libraby
+[[main]]
+  name = 'Tech Index'
+  pageRef = "tech"
+  weight = 40
+
 #[[main]]
 #  name = "Blog"
 #  pageRef = "posts"

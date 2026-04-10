@@ -1,5 +1,5 @@
 ---
-title: "Technical Library"
+title: "Technical Index"
 date: 2026-03-31
 description: "Research and notes on electrochemical climate technologies."
 showDate: false
@@ -10,6 +10,10 @@ showSummaryReadingTime: false
 showWordCount: false
 showPagination: false
 showTaxonomies: false
+showChildPages: false
+layout: "simple"
 ---
 
-This section serves as the central repository for my technical content.
+The central repository for technical deep dives and system-level syntheses.
+
+{{< tech-matrix >}}
