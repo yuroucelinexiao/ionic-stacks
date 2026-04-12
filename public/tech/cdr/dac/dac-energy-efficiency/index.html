@@ -21,7 +21,7 @@
 
   
   
-    <meta name="description" content="Technical foundations on minimum work, actual work, and second law efficiencies.">
+    <meta name="description" content="Technical foundations on minimum work, actual work, and second law efficiencies for direct air capture.">
   
   
     <meta name="keywords" content="eDAC,Energy-Efficiency,First-Principles,Second Law,Thermodynamics,Regeneration,">
@@ -55,15 +55,15 @@
   <meta property="og:url" content="http://localhost:1313/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/">
   <meta property="og:site_name" content="Ionic Stacks">
   <meta property="og:title" content="How much energy do we actually need to pull CO2 out of thin air?">
-  <meta property="og:description" content="Technical foundations on minimum work, actual work, and second law efficiencies.">
+  <meta property="og:description" content="Technical foundations on minimum work, actual work, and second law efficiencies for direct air capture.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
-    <meta property="article:published_time" content="2026-04-06T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-04-06T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-04-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-04-06T00:00:00+00:00">
     <meta property="article:tag" content="EDAC">
     <meta property="article:tag" content="Energy-Efficiency">
-    <meta property="article:tag" content="First Principles">
+    <meta property="article:tag" content="First-Principles">
     <meta property="article:tag" content="Second Law">
     <meta property="article:tag" content="Thermodynamics">
     <meta property="article:tag" content="Regeneration">
@@ -73,7 +73,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/ionic-stacks/tech/cdr/dac/dac-energy-efficiency/featured.png">
   <meta name="twitter:title" content="How much energy do we actually need to pull CO2 out of thin air?">
-  <meta name="twitter:description" content="Technical foundations on minimum work, actual work, and second law efficiencies.">
+  <meta name="twitter:description" content="Technical foundations on minimum work, actual work, and second law efficiencies for direct air capture.">
 
   
   
@@ -366,11 +366,11 @@
       "@type": "Person",
       "name": "Yurou Celine Xiao"
     },
-    "copyrightYear": "2026",
-    "dateCreated": "2026-04-06T00:00:00\u002b00:00",
-    "datePublished": "2026-04-06T00:00:00\u002b00:00",
+    "copyrightYear": "2024",
+    "dateCreated": "2024-04-06T00:00:00\u002b00:00",
+    "datePublished": "2024-04-06T00:00:00\u002b00:00",
     
-    "dateModified": "2026-04-06T00:00:00\u002b00:00",
+    "dateModified": "2024-04-06T00:00:00\u002b00:00",
     
     "keywords": ["eDAC","Energy-Efficiency","First-Principles","Second Law","Thermodynamics","Regeneration"],
     
@@ -1132,7 +1132,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-06T00:00:00&#43;00:00">April 6 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+      <time datetime="2024-04-06T00:00:00&#43;00:00">April 6 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
 
     
@@ -1321,8 +1321,7 @@
     
 </h2>
 <p>There&rsquo;s nothing engineers love more than energy-efficient systems. In a perfect system, 100% of the energy input performs useful work. When it comes to direct air capture, useful work means gathering dispersed CO<sub>2</sub> molecules from the air into a concentrated gas stream. This process decreases entropy and is non-spontaneous. Thus, there is a thermodynamic minimum work of separation (\(W_{ \text{min}}\)), the absolute energy floor for a reversible, 100% efficient process.</p>
-<p>To calculate \(W_{ \text{min}}\), we turn to the Gibbs free energy of mixing (\( \Delta G_{ \text{mix}}\)). We assume constant temperature and pressure, and treat air as an ideal gas where the enthalpy of mixing is zero (\(\Delta H_{ \text{mix}}=0\)). Gibbs free energy is derived from the First and Second Laws of Thermodynamics and represents the useful work required to overcome the tendency of molecules to disperse and mix (some statistical mechanics required).</p>
-<p>Note the negative sign here! \(\Delta G_{ \text{mix}}\) itself is negative because mixing is a spontaneous process, and \(W_{ \text{min}}\) will be positive because we have to put in work:</p>
+<p>To calculate \(W_{ \text{min}}\), we turn to the Gibbs free energy of mixing (\( \Delta G_{ \text{mix}}\)). We assume constant temperature and pressure, and treat air as an ideal gas where the enthalpy of mixing is zero (\(\Delta H_{ \text{mix}}=0\)). Gibbs free energy is derived from the First and Second Laws of Thermodynamics and represents the work needed to overcome the tendency of molecules to disperse and mix (some statistical mechanics required).</p>
 <div style="margin: 0 auto; text-align: center;">
 \(W_{ \text{min}}=- \Delta G_{ \text{mix}}=-nRT \sum x_i \ln(x_i)\)
 </div>
@@ -1333,7 +1332,7 @@
 <li>\(T\) is the temperature (\(298.15 \text{ K}\))</li>
 <li>\(x_i\) is the mole fraction of gas \(i\) (\(x_1\) is \(\text{CO}_2\) and \(x_2\) is everything else)</li>
 </ul>
-<p>Sprinkle in some algebra to normalize the equation for 1 mole of \(\text{CO}_2\). The negative sign cancels out due to a log identity. The equation becomes:</p>
+<p>Note the negative sign here! \(\Delta G_{ \text{mix}}\) itself is negative because mixing is a spontaneous process, and \(W_{ \text{min}}\) will be positive because we have to put in work. Sprinkle in some algebra to normalize the equation for 1 mole of \(\text{CO}_2\). The negative sign then cancels out due to a log identity. The equation becomes:</p>
 <div style="margin: 0 auto; text-align: center;">
 \(W_{ \text{min}}=RT \left[ \ln \left( \dfrac{1}{x_ \text{in}} \right)+ \dfrac{1-{x_ \text{in}}}{x_ \text{in}} \ln \left( \dfrac{1}{1-{x_ \text{in}}} \right) \right]\)
 </div>

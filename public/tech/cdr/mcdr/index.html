@@ -155,6 +155,16 @@
   
   
 
+  
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/ionic-stacks/js/mermaid.bundle.5424718cb0bcc6bb7b70684883673c4c6c143a1a4bdade745ee7ceb21f1d62355bc16abb08c2d2c83e3fd38666142528bb429c1735d052890b52522409b32bbc.js"
+    integrity="sha512-VCRxjLC8xrt7cGhIg2c8TGwUOhpL2t50XufOsh8dYjVbwWq7CMLSyD4/04ZmFCUou0KcFzXQUokLUlIkCbMrvA=="></script>
+
 
 
 
@@ -232,7 +242,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "7"
+    "wordCount": "328"
   }]
   </script>
 
@@ -930,28 +940,179 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
-  
-  
-  
+  <article class="max-w-full">
+    <header>
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Marine Carbon Dioxide Removal (mCDR)
+      </h1>
+    </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      <p>The ocean is a massive carbon sink. Covering ~71% of the Earth&rsquo;s surface, it acts as the world&rsquo;s largest air contactor that absorbs CO<sub>2</sub> from the atmosphere in an attempt to maintain an equilibrium. Ocean surface water contains on average ~2 mM of dissolved inorganic carbon (DIC)—CO<sub>2</sub> in its various chemical states, including aqueous CO<sub>2</sub>, carbonic acid, bicarbonate, and carbonate ions. Excess CO<sub>2</sub> acidifies the ocean, pushing this natural buffer to its limits and threatening marine ecosystems. The goal of mCDR is to restore this delicate balance by either extracting the dissolved carbon or permanently expanding the ocean&rsquo;s safe absorption capacity.</p>
+<hr>
 
-  
-  
-
-  
-  <header>
+<h3 class="relative group">Direct Ocean Capture (DOC)
+    <div id="direct-ocean-capture-doc" class="anchor"></div>
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Marine Carbon Dioxide Removal (mCDR)</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#direct-ocean-capture-doc" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Electrochemical DOC relies on the ocean&rsquo;s natural carbonate equilibrium. The electrochemical stack uses electricity to split the incoming seawater to generate acids and bases. When the seawater pH is shifted down using the acidic stream, the DIC is extracted as a concentrated CO<sub>2</sub> gas stream. The DIC-depleted water is then recombined with the alkaline stream to rebalance the pH and returned to the ocean.</p>
+<div style="max-width: 700px; margin: 0 auto;">
+<pre class="not-prose mermaid">
+  flowchart LR
+
+  %% define the nodes
+    Intake[/"Intake Seawater"/]
+    Stack[["Stack"]]
+    Pure[/"High-Purity CO<sub>2</sub>"/]
+    Outflow[/"Outflow Seawater"/]
+
+  %% define the flow
+    Intake -->|DIC-Rich| Stack
+    Stack --> Pure
+    Stack -->|DIC-Depleted| Outflow
+
+   %% styling
+    classDef StackStyle padding:25px 50px,stroke-width:4px,font-weight:bold,font-size:18px;
+    class Stack StackStyle
+</pre>
+
+</div>
+<hr>
+
+<h3 class="relative group">Ocean Alkalinity Enhancement (OAE)
+    <div id="ocean-alkalinity-enhancement-oae" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ocean-alkalinity-enhancement-oae" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>OAE doesn&rsquo;t involve any CO<sub>2</sub> handling. Instead, this approach focuses on expanding the ocean&rsquo;s CO<sub>2</sub> absorption capacity. The electrochemical stack splits seawater or waste brine into an alkaline stream for ocean discharge and an acidic stream for use in other processes. The added alkalinity shifts the carbonate equilibrium in the ocean, converting dissolved aqueous CO<sub>2</sub> into bicarbonates, and restoring the ocean&rsquo;s natural buffering capacity.</p>
+<div style="max-width: 700px; margin: 0 auto;">
+<pre class="not-prose mermaid">
+flowchart LR
+
+  %% define the nodes
+    Intake[/"Intake Seawater / Brine"/]
+    Stack[["Stack"]]
+    Outflow[/"Outflow Seawater"/]
+    Acid[/"Acid Valorization"/]
+
+  %% define the flow
+    Intake --> Stack
+    Stack --> |Acidic Stream|Acid
+    Stack --> |Alkaline Stream|Outflow
+
+   %% styling
+    classDef StackStyle padding:25px 50px,stroke-width:4px,font-weight:bold,font-size:18px;
+    class Stack StackStyle
+</pre>
+
+</div>
+<hr>
+
+
+
+
+
+
+<h2 class="mt-20 text-2xl font-extrabold mb-10">Scrubbing the Seas</h2>
+
+
+  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+    
+      
+        
+          
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+    
+      
+      
+    
+
+    
+    
+      
+    
+  
+
+
+
+<article
+  class="article-link--card relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  
+  
+  <div class="p-4">
+    <header>
+      <a
+        
+          href="/ionic-stacks/tech/cdr/mcdr/real-ocean-water/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          Why is seawater so hard to work with?
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
       
 
 
 
 
 
-  
-  
 
 
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
 
   
 
@@ -967,32 +1128,42 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
+      <time datetime="2026-04-11T00:00:00&#43;00:00">April 11 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
   </div>
 
+  
+
+  
+  
+
+  
+  
+
+
 
     </div>
-  </header>
-
-  
-  
-  
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row mb-10">
     
-    <div class="min-w-0 min-h-0 max-w-prose w-full">
-      <p>Short blurb test for mCDR landing page.</p>
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
 
-    </div>
+        
+      
+    
   </section>
 
-  
-  
-    <section class="mt-10 prose dark:prose-invert">
-      <p class="py-8 border-t">
-        <em>There are no articles to list here yet.</em>
-      </p>
+
+
     </section>
-  
-  
+    <footer class="pt-8">
+      
+
+    </footer>
+  </article>
 
         
 

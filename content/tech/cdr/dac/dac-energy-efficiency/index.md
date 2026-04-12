@@ -1,10 +1,11 @@
 ﻿---
 title: "How much energy do we actually need to pull CO<sub>2</sub> out of thin air?"
-date: 2026-04-06
+date: 2024-04-06
+list_type: "dac"
 draft: false
 showWordCount: false
 showTableOfContents: true
-summary: "Technical foundations on minimum work, actual work, and second law efficiencies."
+summary: "Technical foundations on minimum work, actual work, and second law efficiencies for direct air capture."
 categories: ["Carbon Dioxide Removal (CDR) Deep Dive"]
 tags: ["eDAC", "Energy-Efficiency", "First-Principles", "Second Law", "Thermodynamics", "Regeneration"]
 ---
@@ -14,9 +15,7 @@ tags: ["eDAC", "Energy-Efficiency", "First-Principles", "Second Law", "Thermodyn
 
 There's nothing engineers love more than energy-efficient systems. In a perfect system, 100% of the energy input performs useful work. When it comes to direct air capture, useful work means gathering dispersed CO<sub>2</sub> molecules from the air into a concentrated gas stream. This process decreases entropy and is non-spontaneous. Thus, there is a thermodynamic minimum work of separation (\(W_{ \text{min}}\)), the absolute energy floor for a reversible, 100% efficient process.
 
-To calculate \(W_{ \text{min}}\), we turn to the Gibbs free energy of mixing (\( \Delta G_{ \text{mix}}\)). We assume constant temperature and pressure, and treat air as an ideal gas where the enthalpy of mixing is zero (\(\Delta H_{ \text{mix}}=0\)). Gibbs free energy is derived from the First and Second Laws of Thermodynamics and represents the useful work required to overcome the tendency of molecules to disperse and mix (some statistical mechanics required).
-
-Note the negative sign here! \(\Delta G_{ \text{mix}}\) itself is negative because mixing is a spontaneous process, and \(W_{ \text{min}}\) will be positive because we have to put in work:
+To calculate \(W_{ \text{min}}\), we turn to the Gibbs free energy of mixing (\( \Delta G_{ \text{mix}}\)). We assume constant temperature and pressure, and treat air as an ideal gas where the enthalpy of mixing is zero (\(\Delta H_{ \text{mix}}=0\)). Gibbs free energy is derived from the First and Second Laws of Thermodynamics and represents the work needed to overcome the tendency of molecules to disperse and mix (some statistical mechanics required).
 
 <div style="margin: 0 auto; text-align: center;">
 \(W_{ \text{min}}=- \Delta G_{ \text{mix}}=-nRT \sum x_i \ln(x_i)\)
@@ -28,7 +27,7 @@ Where:
 - \(T\) is the temperature (\(298.15 \text{ K}\))
 - \(x_i\) is the mole fraction of gas \(i\) (\(x_1\) is \(\text{CO}_2\) and \(x_2\) is everything else)
 
-Sprinkle in some algebra to normalize the equation for 1 mole of \(\text{CO}_2\). The negative sign cancels out due to a log identity. The equation becomes:
+Note the negative sign here! \(\Delta G_{ \text{mix}}\) itself is negative because mixing is a spontaneous process, and \(W_{ \text{min}}\) will be positive because we have to put in work. Sprinkle in some algebra to normalize the equation for 1 mole of \(\text{CO}_2\). The negative sign then cancels out due to a log identity. The equation becomes:
 
 <div style="margin: 0 auto; text-align: center;">
 \(W_{ \text{min}}=RT \left[ \ln \left( \dfrac{1}{x_ \text{in}} \right)+ \dfrac{1-{x_ \text{in}}}{x_ \text{in}} \ln \left( \dfrac{1}{1-{x_ \text{in}}} \right) \right]\)
@@ -112,5 +111,3 @@ As the global energy landscape evolves, the industrial deployment of direct air 
 [^1]: Keith, H., Holmes, G., St. Angelo, D. & Heidel, K. A process for capturing CO<sub>2</sub>‚ from the atmosphere. Joule 2, 1573-1594 (2018). https://doi.org/10.1016/j.joule.2018.05.006
 
 [^2]: Wang, E. et al. Reviewing direct air capture startups and emerging technologies. Cell Rep. Phys. Sci. 5, 101791 (2024). https://doi.org/10.1016/j.xcrp.2024.101791
-
-

@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2026-04-01
-showTableOfContents: true # This enables the scrolling sidebar
+showTableOfContents: true
 showDate: false
 showWordCount: false
 showReadingTime: false
