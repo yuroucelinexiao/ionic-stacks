@@ -1,0 +1,1379 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/ionic-stacks/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=ionic-stacks/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>When electrochemistry meets the open seas &middot; Ionic Stacks</title>
+    <meta name="title" content="When electrochemistry meets the open seas &middot; Ionic Stacks">
+  
+
+  
+  
+    <meta name="description" content="everything hard about seawater">
+  
+  
+    <meta name="keywords" content="ocean,seawater,">
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/">
+  
+
+  
+  
+    <meta name="author" content="Yurou Celine Xiao">
+  
+  
+    
+      
+        
+          <link href="https://www.linkedin.com/in/celine-xiao/" rel="me">
+        
+      
+    
+      
+        
+          <link href="https://scholar.google.com/citations?user=EW0G8dkAAAAJ&amp;hl=en" rel="me">
+        
+      
+    
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/">
+  <meta property="og:site_name" content="Ionic Stacks">
+  <meta property="og:title" content="When electrochemistry meets the open seas">
+  <meta property="og:description" content="everything hard about seawater">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2026-04-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-11T00:00:00+00:00">
+    <meta property="article:tag" content="Ocean">
+    <meta property="article:tag" content="Seawater">
+    <meta property="og:image" content="http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/featured.png">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/featured.png">
+  <meta name="twitter:title" content="When electrochemistry meets the open seas">
+  <meta name="twitter:description" content="everything hard about seawater">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+  
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/ionic-stacks/css/main.bundle.min.6526acfe6144f88c73c200977a0cc394490386c4f4aa801a8f3bbd96ca53be991b86eaf7c95940ac6587efa8d8e9f865062b3cd42b9784b3129332c8276b0c46.css"
+    integrity="sha512-ZSas/mFE&#43;IxzwgCXegzDlEkDhsT0qoAajzu9lspTvpkbhur3yVlArGWH76jY6fhlBis81CuXhLMSkzLIJ2sMRg==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/ionic-stacks/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/ionic-stacks/lib/zoom/zoom.min.umd.b4b722fcb5d42f34f52b30a92f3521b69f403ca9d96d0d6179eb537cb870f5d83fdf1fe836688d95d5c99fefbda4170487711006e56051fa67ea00da10521721.js" integrity="sha512-tLci/LXULzT1KzCpLzUhtp9APKnZbQ1heetTfLhw9dg/3x/oNmiNldXJn&#43;&#43;9pBcEh3EQBuVgUfpn6gDaEFIXIQ=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/ionic-stacks/js/main.bundle.min.bf2f1d313c33e330808a293b8c19ce8c6d122eb67081e08dba03cf42a35341eba1e8fa9cdc13f5a08df92ef9bc8db08d1e9e04e0c8637787bc4d1208a2e4b948.js"
+      integrity="sha512-vy8dMTwz4zCAiik7jBnOjG0SLrZwgeCNugPPQqNTQeuh6Pqc3BP1oI35Lvm8jbCNHp4E4Mhjd4e8TRIIouS5SA=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/ionic-stacks/lib/katex/katex.min.3f33ad884121751395c5b729e536121d4aa513d1ae49311439f8fa2afe02a56346ccc4c2879b148a42a78302e00db42b7223be682096a835140e1313e8bad3bb.css"
+    integrity="sha512-PzOtiEEhdROVxbcp5TYSHUqlE9GuSTEUOfj6Kv4CpWNGzMTCh5sUikKngwLgDbQrciO&#43;aCCWqDUUDhMT6LrTuw==">
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/ionic-stacks/js/katex.bundle.d76c6b66ae0f51600881e8f6d9755803fabf68e645bf345f6305ac5abe87edbdc11c367847df47880f1c41511847982df778a8fa5b199ef4e3b8f956cae7e555.js"
+    integrity="sha512-12xrZq4PUWAIgej22XVYA/q/aOZFvzRfYwWsWr6H7b3BHDZ4R99HiA8cQVEYR5gt93io&#43;lsZnvTjuPlWyuflVQ=="
+    id="katex-render"></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/ionic-stacks/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/ionic-stacks/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ionic-stacks/favicon-16x16.png">
+    <link rel="manifest" href="/ionic-stacks/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Technical Index",
+    "name": "When electrochemistry meets the open seas",
+    "headline": "When electrochemistry meets the open seas",
+    
+    "inLanguage": "en",
+    "url" : "http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/",
+    "author" : {
+      "@type": "Person",
+      "name": "Yurou Celine Xiao"
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-04-11T00:00:00\u002b00:00",
+    "datePublished": "2026-04-11T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-04-11T00:00:00\u002b00:00",
+    
+    "keywords": ["ocean","seawater"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1091"
+  }]
+  </script>
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral bf-scrollbar">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+  
+  
+    <a href="/ionic-stacks/" class="text-base font-medium truncate min-w-0 shrink">
+      Ionic Stacks
+    </a>
+  
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      <nav class="flex items-center gap-x-5 h-12">
+  
+    
+      
+  
+    <a
+      href="/ionic-stacks/about/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="About"
+      title="About">
+      
+      
+        <span class="text-base font-medium break-normal">
+          About
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <div class="nested-menu">
+      <div class="cursor-pointer flex items-center">
+        <a
+          
+            href="/ionic-stacks/tech/sectors/"
+            
+          
+          aria-label="Sectors"
+          class="flex items-center text-base font-medium bf-icon-color-hover"
+          title="Industrial Sectors">
+          
+          <span class="text-bg font-bg break-normal" title="Industrial Sectors">
+            Sectors
+          </span>
+          <span>
+            <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+          </span>
+        </a>
+      </div>
+      <div class="menuhide">
+        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
+          <div class="flex flex-col space-y-3">
+            
+              <a
+                href="/ionic-stacks/tech/sectors/dac/"
+                
+                aria-label="Direct Air Capture"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="Direct Air Capture (DAC)">
+                  Direct Air Capture
+                </span>
+              </a>
+            
+              <a
+                href="/ionic-stacks/tech/sectors/mcdr/"
+                
+                aria-label="Marine Carbon Dioxide Removal"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="Marine Carbon Dioxide Removal (mCDR)">
+                  Marine Carbon Dioxide Removal
+                </span>
+              </a>
+            
+              <a
+                href="/ionic-stacks/tech/sectors/ptx/"
+                
+                aria-label="Power-to-X"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="Power-to-X (PtX)">
+                  Power-to-X
+                </span>
+              </a>
+            
+              <a
+                href="/ionic-stacks/tech/sectors/minerals/"
+                
+                aria-label="Minerals"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="Minerals">
+                  Minerals
+                </span>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    
+      
+  
+    <a
+      href="/ionic-stacks/tech/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Tech Index"
+      title="Technical Index">
+      
+      
+        <span class="text-base font-medium break-normal">
+          Tech Index
+        </span>
+      
+    </a>
+  
+
+    
+  
+
+  
+
+  
+
+  
+    <button
+      id="search-button"
+      aria-label="Search"
+      class="text-base bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+    <div class="flex items-center">
+      <button
+        id="appearance-switcher"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base bf-icon-color-hover">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    </div>
+  
+</nav>
+
+
+
+    </div>
+    <div class="flex md:hidden">
+      <div class="flex items-center h-14 gap-4">
+  
+    <button
+      id="search-button-mobile"
+      aria-label="Search"
+      class="flex items-center justify-center bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+    <button
+      id="appearance-switcher-mobile"
+      type="button"
+      aria-label="Dark mode switcher"
+      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
+      <div class="dark:hidden">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+      </div>
+      <div class="hidden dark:block">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+      </div>
+    </button>
+  
+
+  
+    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
+    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+    </label>
+
+    <div
+      role="dialog"
+      aria-modal="true"
+      style="scrollbar-gutter: stable;"
+      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
+      bf-scrollbar">
+      <label
+        for="mobile-menu-toggle"
+        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </label>
+      <nav class="mx-auto max-w-md space-y-6">
+        
+  
+    
+    <div class="px-2">
+      <a
+        href="/ionic-stacks/about/"
+        aria-label="About"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="About" class="text-2xl font-bold tracking-tight">
+          About
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/ionic-stacks/tech/sectors/"
+        aria-label="Sectors"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Industrial Sectors" class="text-2xl font-bold tracking-tight">
+          Sectors
+        </span>
+        
+          <label
+            for="fullscreen-submenu-sectors"
+            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
+            <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+          </label>
+        
+      </a>
+
+      
+        <input checked type="checkbox" id="fullscreen-submenu-sectors" autocomplete="off" class="hidden peer/full">
+
+        <div
+          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
+          <div class="overflow-hidden">
+            <div class="ms-7 mt-4">
+              
+                <a
+                  href="/ionic-stacks/tech/sectors/dac/"
+                  aria-label="Direct Air Capture"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="Direct Air Capture (DAC)" class="text-lg">
+                    Direct Air Capture
+                  </span>
+                </a>
+              
+                <a
+                  href="/ionic-stacks/tech/sectors/mcdr/"
+                  aria-label="Marine Carbon Dioxide Removal"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="Marine Carbon Dioxide Removal (mCDR)" class="text-lg">
+                    Marine Carbon Dioxide Removal
+                  </span>
+                </a>
+              
+                <a
+                  href="/ionic-stacks/tech/sectors/ptx/"
+                  aria-label="Power-to-X"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="Power-to-X (PtX)" class="text-lg">
+                    Power-to-X
+                  </span>
+                </a>
+              
+                <a
+                  href="/ionic-stacks/tech/sectors/minerals/"
+                  aria-label="Minerals"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="Minerals" class="text-lg">
+                    Minerals
+                  </span>
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/ionic-stacks/tech/"
+        aria-label="Tech Index"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Technical Index" class="text-2xl font-bold tracking-tight">
+          Tech Index
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+
+        
+  
+
+        
+  
+
+      </nav>
+    </div>
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        When electrochemistry meets the open seas
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-04-11T00:00:00&#43;00:00">April 11 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+  
+  
+
+
+
+      </div>
+      
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+    
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+      
+      
+        
+        
+        
+      
+      <img
+        class="!mt-0 !mb-0 h-24 w-24 rounded-full me-4"
+        width="96"
+        height="96"
+        alt="Yurou Celine Xiao"
+        src="/ionic-stacks/images/celine/2025profile_hu_ed5ab85ecb4cd377.jpeg"
+        data-zoom-src="/ionic-stacks/images/celine/2025profile_hu_20d8a970e0a16256.jpeg">
+    
+  
+  <div class="place-self-center">
+    
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+        Author
+      </div>
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        Yurou Celine Xiao
+      </div>
+    
+    
+      <div class="text-sm text-neutral-700 dark:text-neutral-400">Electrochemical Scale-up Engineer</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
+    
+      
+        
+        <a
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.linkedin.com/in/celine-xiao/"
+          
+          target="_blank"
+          aria-label="Linkedin"
+          title="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></span></a
+        >
+      
+    
+      
+        
+        <a
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://scholar.google.com/citations?user=EW0G8dkAAAAJ&amp;hl=en"
+          
+          target="_blank"
+          aria-label="Google-Scholar"
+          title="Google-Scholar"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 385"><g><path fill="currentColor" d="M 323.28223,42.662430 V 15.430205 L 343.04720,0 H 129.15709 L 0,112.2736 h 85.656075 c -0.15534,2.12494 -0.21914,4.04644 -0.21914,6.22563 0,20.84472 7.2192,38.08662 21.67203,51.86089 14.45284,13.79702 32.25124,20.64784 53.32651,20.64784 4.92319,0 9.75059,-0.36794 14.43842,-1.02419 -2.90722,6.50082 -4.37457,12.52302 -4.37457,18.14228 0,9.87526 4.49924,20.4304 13.46715,31.6418 -39.23377,2.6705 -68.06112,9.73264 -86.43702,21.16322 -10.53108,6.49907 -19.000207,14.70396 -25.390349,24.5311 -6.390569,9.89933 -9.577754,20.51525 -9.577754,31.9616 0,9.64822 2.062375,18.33611 6.21907,26.06233 4.156694,7.7263 9.577757,14.07047 16.312223,18.98408 6.71825,4.96781 14.46899,9.10088 23.219,12.46874 8.73429,3.34378 17.40643,5.71858 26.06106,7.06258 8.62707,1.34222 17.20471,1.9985 25.70579,1.9985 13.46887,0 26.95353,-1.73428 40.54711,-5.18707 13.56165,-3.48461 26.28022,-8.64143 38.17105,-15.4927 11.85935,-6.80488 21.51545,-16.0865 28.9219,-27.7183 7.39024,-11.67998 11.09457,-24.80499 11.09457,-39.33613 0,-11.01584 -2.24964,-21.03852 -6.7502,-30.14073 -4.46864,-9.07202 -9.93785,-16.54102 -16.45271,-22.34403 -6.5008,-5.81263 -12.99987,-11.15539 -19.51512,-15.9679 -6.50083,-4.84488 -12.00021,-9.75058 -16.46884,-14.8129 -4.4848,-5.04657 -6.73444,-10.05419 -6.73444,-14.98395 0,-4.92145 1.73422,-9.67183 5.21588,-14.26559 3.45451,-4.6095 7.67376,-9.04795 12.60967,-13.30571 4.93756,-4.24944 9.87523,-8.96788 14.79665,-14.13302 4.92147,-5.14719 9.14072,-11.82739 12.60971,-20.00822 3.48467,-8.17907 5.20318,-17.44489 5.20318,-27.75679 0,-13.4527 -2.54714,-24.46065 -7.54735,-33.31348 -0.59369,-1.02243 -1.21757,-1.80338 -1.87511,-3.02225 l 56.90745,-46.672136 v 17.118526 c -7.39373,0.92969 -6.62422,5.34582 -6.62422,10.6352 v 128.66719 c 0,5.95832 4.8751,10.83382 10.83386,10.83382 h 3.98869 c 5.95835,0 10.83386,-4.87506 10.83386,-10.83382 V 53.29282 c 0,-5.27669 0.77741,-9.68801 -6.56167,-10.63039 z M 215.92220,265.14114 c 1.14099,0.7503 3.7039,2.78075 7.7184,6.03838 4.0495,3.24319 6.797,5.69582 8.26567,7.41432 1.43851,1.66381 3.5792,4.16501 6.37617,7.54734 2.81268,3.3744 4.7184,6.30394 5.71853,8.73425 1.00016,2.4767 2.01603,5.46089 3.04636,8.94556 0.98567,3.44488 1.48486,6.97595 1.48486,10.56169 0,17.04813 -6.56338,29.68007 -19.65604,37.85915 -13.125,8.18083 -28.76651,12.27368 -46.93767,12.27368 -9.18709,0 -18.2031,-1.09289 -27.06247,-3.1951 -8.84322,-2.11665 -17.31192,-5.3362 -25.39035,-9.60185 -8.07846,-4.25771 -14.57754,-10.20337 -19.50072,-17.79659 -4.93764,-7.64012 -7.40645,-16.41464 -7.40645,-26.24962 0,-10.32022 2.79692,-19.28987 8.42233,-26.90588 5.59343,-7.62564 12.93774,-13.3919 22.03208,-17.3154 9.0624,-3.94582 18.24946,-6.74232 27.56166,-8.39827 9.31221,-1.7023 18.79679,-2.555 28.43842,-2.555 4.46862,0 7.93582,0.25115 10.40465,0.69607 0.45456,0.21918 3.03188,2.07025 7.73456,5.56326 4.70401,3.46237 7.62565,5.59519 8.75047,6.38401 z m -3.35823,-100.5779 c -7.40648,8.85938 -17.73454,13.2882 -30.95363,13.2882 -11.85933,0 -22.29766,-4.76482 -31.26554,-14.31195 -8.99984,-9.52309 -15.42235,-20.32803 -19.34408,-32.43061 -3.93752,-12.10871 -5.90585,-23.98423 -5.90585,-35.648 0,-13.6942 3.59542,-25.35184 10.7809,-34.97598 7.18727,-9.64952 17.49915,-14.48477 30.93786,-14.48477 11.87507,0 22.37423,5.03825 31.43704,15.15677 9.09434,10.08482 15.60961,21.41303 19.5169,33.96799 3.92176,12.5392 5.87345,24.52979 5.87345,35.98399 0,13.44658 -3.70256,24.60984 -11.07663,33.45436 z"/></g></svg></span></span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+  
+
+  
+
+  
+    <div class="mb-5"></div>
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+        <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-10">
+            <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain bf-scrollbar rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#seawater-composition">Seawater composition</a></li>
+    <li><a href="#only-2-mm-of-dic">Only ~2 mM of DIC</a></li>
+    <li><a href="#microbes-and-particulates">Microbes and particulates</a></li>
+    <li><a href="#chlorine-evolution">Chlorine evolution</a></li>
+    <li><a href="#magnesium-and-calcium-precipitates">Magnesium and calcium precipitates</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#seawater-composition">Seawater composition</a></li>
+    <li><a href="#only-2-mm-of-dic">Only ~2 mM of DIC</a></li>
+    <li><a href="#microbes-and-particulates">Microbes and particulates</a></li>
+    <li><a href="#chlorine-evolution">Chlorine evolution</a></li>
+    <li><a href="#magnesium-and-calcium-precipitates">Magnesium and calcium precipitates</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+
+          </div>
+        </div>
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+
+<h2 class="relative group">Seawater composition
+    <div id="seawater-composition" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#seawater-composition" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Synthetic seawater is a great laboratory tool for studying marine-based technologies. However, the ocean is a living electrolyte, and not so forgiving. Even after we take out the fish, seaweed, and sand, we are still left with a complex mix of ions. The table below summarizes the major constituents of seawater, adapted from Sverdrup and Armbrust<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<div style="width: fit-content; margin: 0 auto;">
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><div style="width: 175px;">Component</div></th>
+          <th style="text-align: center"><div style="width: 175x;"> Approx. Concentration (mM)</div></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Chloride (Cl<sup>-</sup>)</td>
+          <td style="text-align: center">~560</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Sodium (Na<sup>+</sup>)</td>
+          <td style="text-align: center">~481</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Magnesium (Mg<sup>2+</sup>)</td>
+          <td style="text-align: center">~54</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Sulfate (SO<sub>4</sub><sup>2-</sup>)</td>
+          <td style="text-align: center">~29</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Calcium (Ca<sup>2+</sup>)</td>
+          <td style="text-align: center">~11</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Potassium (K<sup>+</sup>)</td>
+          <td style="text-align: center">~10</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Bicarbonate (HCO<sub>3</sub><sup>-</sup>)</td>
+          <td style="text-align: center">~2</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+
+<h2 class="relative group">Only ~2 mM of DIC
+    <div id="only-2-mm-of-dic" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#only-2-mm-of-dic" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Challenge:</strong> From the <a href="/ionic-stacks/tech/sectors/mcdr/real-seawater/#seawater-composition" >chemical inventory</a> above, we can immediately see the primary bottleneck of mCDR: the dilute concentration of DIC (primarily in the form of bicarbonate). In an ideal system, ~11,360 tonnes of seawater needs to be processed to extract 1 tonne of CO<sub>2</sub>. In real systems, the volume of water required increases based on the target pH of the electrochemical stack (which determines CO<sub>2</sub> speciation based on the Henderson-Hasselbalch equation), and the time allowed for CO<sub>2</sub> degassing (which is governed by Fick&rsquo;s Law of Diffusion and two-film boundary layer equations). The electrical energy required for the intake pumps can quickly add up if large volumes of water need to be pumped over a steep pressure drop (\(\Delta P\)).</p>
+<p>Try the slider below to contextualize how much water we would have to process to extract 1 tonne of CO<sub>2</sub>. The estimation assumes a composite acid dissociation constant (\(pK_a\)) of 5.84<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, which considers the dehydration of carbonic acid and seawater salinity, and a volumetric mass transfer coefficient (\(k_La\)) of 0.045 s<sup>-1</sup>, which is representative of an optimized industrial-scale degasser.</p>
+<div style="background: #0B3A46; padding: 25px; border-radius: 12px; border: 1px solid #A6A6A6; color: white; font-family: sans-serif; max-width: 700px; margin: 0 auto;">
+  <h3 style="margin-top: 0; color: #B89C3F;">Seawater needed per tonne CO<sub>2</sub></h3>
+<p><label>Electrochemical stack target pH: <strong id="ph-val">5.0</strong> (max extractable CO<sub>2</sub>: <strong id="theo-yield">87</strong>%)</label>
+<input type="range" id="ph-slider" min="4.0" max="8.1" step="0.1" value="5.0" style="width: 100%; margin-top: 20px; accent-color: #B89C3F;"></p>
+<p><label>CO<sub>2</sub> degassing time: <strong id="time-val">30</strong> s (actual CO<sub>2</sub> yield: <strong id="actual-yield">65</strong>%) </label>
+<input type="range" id="time-slider" min="1" max="120" value="30" style="width: 100%; margin-top: 20px; accent-color: #B89C3F;"></p>
+  <div style="background: white; padding: 15px; border-radius: 8px; text-align: center; margin-top: 20px;">
+    <span style="font-size: 16px; color: grey; text-transform: uppercase; letter-spacing: 1px;">Seawater Processed</span><br>
+    <span id="water-output" style="font-size: 36px; font-weight: bold; color: #B89C3F;">17,557</span>
+    <span style="color: #B89C3F;"> tonnes</span><br>
+    <span id="volume-analogy" style="font-size: 16px; color: grey; font-style: italic; display: inline-block;">(~7 Olympic swimming pools)</span>
+  </div>
+</div>
+<script>
+  const phSlider = document.getElementById('ph-slider');
+  const timeSlider = document.getElementById('time-slider');
+  const phVal = document.getElementById('ph-val');
+  const timeVal = document.getElementById('time-val');
+  const theoYieldText = document.getElementById('theo-yield');
+  const actualYieldText = document.getElementById('actual-yield');
+  const waterOutput = document.getElementById('water-output');
+  const analogyOutput = document.getElementById('volume-analogy');
+
+  const min_water = 11363; 
+  const pKa = 5.84; {{/* composite pKa for seawater*/}}
+  const k_La = 0.045; {{/* volumetric mass transfer coefficient (k_La) ranges between 0.01 to 0.1 s^(-1) */}}
+
+  function getVolumeAnalogy(tonnes) {
+    if (tonnes >= 10000000) {
+      return "(Small inland lake)";
+    } else if (tonnes >= 1000000) {
+      let stadiums = Math.round(tonnes / 1000000);
+      return `(~${stadiums} flooded stadium(s))`;
+    } else if (tonnes >= 250000) {
+      let minutes = Math.round(tonnes / 144000);
+      return `(~${minutes} minute(s) of continuous flow over Niagara Falls)`;
+    } else {
+      let pools = Math.round(tonnes / 2500);
+      return `(~${pools} Olympic swimming pools)`;
+    }
+  }
+
+  function calculateThermodynamics() {
+    let current_pH = parseFloat(phSlider.value);
+    let contactTime = parseFloat(timeSlider.value);
+
+    let theoreticalYield = 1 / (1 + Math.pow(10, current_pH - pKa));
+    let actualYield = theoreticalYield * (1 - Math.exp(-k_La * contactTime));
+
+    let safeYield = Math.max(actualYield, 0.0001); 
+    let requiredWater = min_water / safeYield;
+
+    theoYieldText.innerText = (theoreticalYield * 100).toFixed(0);
+    actualYieldText.innerText = (actualYield * 100).toFixed(0);
+    
+    let displayWater = requiredWater > 9999999 ? "> 9,999,999" : requiredWater.toLocaleString(undefined, { maximumFractionDigits: 0 });
+    waterOutput.innerText = displayWater;
+
+    analogyOutput.innerText = getVolumeAnalogy(requiredWater);
+  }
+
+  phSlider.addEventListener('input', () => {
+    phVal.innerText = parseFloat(phSlider.value).toFixed(1);
+    calculateThermodynamics();
+  });
+
+  timeSlider.addEventListener('input', () => {
+    timeVal.innerText = timeSlider.value;
+    calculateThermodynamics();
+  });
+
+  calculateThermodynamics();
+</script>
+<p><strong>Solution:</strong> To reduce the energy requirement of intake pumps, mCDR systems can minimize the (\(\Delta P\)) through wide, shallow, open-channel flow designs. The electrochemical stack can also be suspended in a flowing water stream, leveraging the power of gravitational and tidal forces for passive pumping. Although this design entirely eliminates the mechanical pumps, it introduces variability in the flow rate and stricter material requirements.</p>
+
+<h2 class="relative group">Microbes and particulates
+    <div id="microbes-and-particulates" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#microbes-and-particulates" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Challenge:</strong> Electrolyzers are notoriously sensitive to solid matter. Microorganisms and suspended particulates will not only clog narrow electrolyte flow channels, but also foul the membranes and electrodes, rapidly degrading stack performance. The immediate engineering response is, of course, filtration. However, the pumping energy scales directly with the volume of water processed and the pressure drop of the filters required to achieve high purity.</p>
+<p><strong>Solution:</strong> Fortunately, many existing coastal facilities already have high water purification standards. By integrating mCDR stacks directly downstream of desalination plants or once-through power plant cooling systems, the pumping and filtration costs are significantly reduced. Alternatively, the stack design can be made robust enough to survive the biological load through periodic cleaning. This includes hydraulic backwashing and periodic polarity reversal (PPR) which dissolves organic matter through localized pH swings. However, this approach sacrifices total system uptime and increase hardware complexity.</p>
+
+<h2 class="relative group">Chlorine evolution
+    <div id="chlorine-evolution" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#chlorine-evolution" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Challenge:</strong> Going back to the <a href="/ionic-stacks/tech/sectors/mcdr/real-seawater/#seawater-composition" >seawater composition</a> table again, we see that Cl<sup>-</sup> is the number 1 ion floating in the ocean. On the anode, Cl<sup>-</sup> can oxidize and evolve into toxic chlorine gas (Cl<sub>2</sub>) or bleach (ClO<sup>-</sup>), posing a threat to both the long-term operation of the electrochemical stack and the marine ecosystem. The chlorine evolution reaction (ClER) diverts anodic current away from the target reaction, which is to produce protons and generate an acidic stream for either CO<sub>2</sub> extraction or valorization, reducing the energy efficiency of the overall process.</p>
+<p><strong>Solution:</strong> Chlorine generation can be suppressed by altering the reaction kinetics and thermodynamics at the anode, restricting the local mass transfer of Cl<sup>-</sup> at the boundary layer, or flowing seawater in separate compartments to physically isolate the anode<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<ul>
+<li>
+<p><strong>Kinetics and thermodynamics:</strong> The thermodynamic potential for ClER is close to the target proton-producing oxygen evolution reaction (OER):</p>
+<p>\( \text{OER:} \quad H_2O \rightarrow \frac{1}{2} O_2 + 2H^+ + 2e^- (E^ \circ = 1.23 \, \text{V vs. SHE})\)</p>
+<p>\( \text{ClER:} \quad 2Cl^- \rightarrow Cl_2 + 2e^- (E^ \circ = 1.36 \, \text{V vs. SHE})\)</p>
+<p>We can simultaneously lower the activation energy for OER and increase the kinetics barrier for ClER by designing selective catalysts. Increasing the local anode pH can further promote OER over ClER. Alternatively, we can switch to anode reactions that are thermodynamically more favourable, constraining  the anodic potential to prevent chlorine evolution. One example is the hydrogen oxidation reaction (HOR), which can proceed at a much lower voltage but introduces complexities in gas handling and material selection:</p>
+<p>\( \text{HOR:} \quad H_2 \rightarrow 2H^+ + 2e^- (E^ \circ = 0.00 \, \text{V vs. SHE})\)</p>
+</li>
+<li>
+<p><strong>Mass transfer:</strong> This approach focuses on keeping the Cl<sup>-</sup> away from the anode by altering the local reaction environment. Coatings and adlayers can act as molecular sieves that use steric hindrance and electrostatic repulsion to reduce Cl<sup>-</sup> concentration at the active sites.</p>
+</li>
+<li>
+<p><strong>Stack design:</strong> Sometimes an architectural overhaul is exactly what we need. Instead of feeding seawater to the anode compartment, we can use membranes to create physical barriers and confine the seawater to central flow channels. One example of this is the bipolar membrane electrodialysis stack. This approach achieves near-complete Cl<sup>-</sup> isolation (dependent on the permselectivity of the membranes) but also increases the stack&rsquo;s ohmic resistance.</p>
+</li>
+</ul>
+
+<h2 class="relative group">Magnesium and calcium precipitates
+    <div id="magnesium-and-calcium-precipitates" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#magnesium-and-calcium-precipitates" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Challenge:</strong> Going back to the <a href="/ionic-stacks/tech/sectors/mcdr/real-seawater/#seawater-composition" >seawater composition</a> table one last time, we see that Mg<sup>2+</sup> and Ca<sup>2+</sup> also exist in significant quantities. As the cathode generates OH<sup>-</sup> to produce the target alkaline stream, the localized high-pH environment precipitates Mg<sup>2+</sup> as Mg(OH)<sub>2</sub> and shifts the bicarbonate equilibrium to precipitate Ca<sup>2+</sup> as CaCO<sub>3</sub>. These precipitates passivate the catalyst, clog the flow channels, and rupture the ion-exchange membranes.</p>
+<p><strong>Solution:</strong> Similar to the fight against chlorine generation, seawater can be confined to central flow channels to keep Mg<sup>2+</sup> and Ca<sup>2+</sup> away from the cathode&rsquo;s localized alkaline environment. An alternative, operationally driven, head-on approach continuously removes the mineral scale through frequent polarity reversals, periodic solubility shifts, and raw hydrodynamic forces.</p>
+
+<h2 class="relative group">References
+    <div id="references" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#references" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Sverdrup, K. A. &amp; Armbrust, E. V. <em>An Introduction to the World&rsquo;s Oceans</em> 10th edn (McGraw-Hill, 2008).&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Millero, F. J., Graham, T. B., Huang, F., Bustos-Serrano, H. &amp; Pierrot, D. Dissociation constants of carbonic acid in seawater as a function of salinity and temperature. <em>Mar. Chem.</em> <strong>100</strong>, 80-94 (2006). <a href="https://doi.org/10.1016/j.marchem.2005.12.001"  target="_blank" rel="noreferrer">https://doi.org/10.1016/j.marchem.2005.12.001</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Bahuguna, G. &amp; Patolsky, F. Routes to Avoiding Chlorine Evolution in Seawater Electrolysis: Recent Perspective and Future Directions. <em>ACS Materials Lett.</em> <strong>6</strong>, 3202-3217 (2024). <a href="https://doi.org/10.1021/acsmaterialslett.4c00409"  target="_blank" rel="noreferrer">https://doi.org/10.1021/acsmaterialslett.4c00409</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+
+        
+
+      </div>
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          © 2026 Yurou Celine Xiao
+      </p>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="http://localhost:1313/ionic-stacks/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+  
+</html>

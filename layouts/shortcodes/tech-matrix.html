@@ -1,7 +1,5 @@
-{{/* 1. Collect all articles in the 'tech' folder */}}
 {{ $all_tech := where .Site.RegularPages "Section" "tech" }}
 
-{{/* 2. Build a list of every unique category used in those articles */}}
 {{ $categories := slice }}
 {{ range $all_tech }}
     {{ range .Params.categories }}
@@ -10,21 +8,17 @@
 {{ end }}
 {{ $unique_categories := $categories | uniq | sort }}
 
-{{/* 3. Loop through those categories and display the posts */}}
 {{ range $unique_categories }}
     {{ $current_cat := . }}
     <div class="mb-10">
         <h2 class="text-2xl font-bold border-b-2 border-primary-500 pb-2 mb-4">
-            {{/* Removed 'humanize' to preserve your exact front matter capitalization */}}
             {{ $current_cat }}
         </h2>
         <ul class="space-y-3">
-            {{/* Find pages that include THIS specific category */}}
             {{ range where $all_tech "Params.categories" "intersect" (slice $current_cat) }}
                 <li class="flex items-center">
                     <span class="mr-2 text-primary-500 font-bold">→</span>
                     <a href="{{ .Permalink }}" class="text-lg hover:underline font-semibold">
-                        {{/* 'markdownify' forces Hugo to render the HTML tags like <sub> instead of printing them as raw text */}}
                         {{ .Title | markdownify }}
                     </a>
                 </li>

@@ -7,12 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2026 Yurou Celine Xiao</copyright>
-    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ocean</title>
+      <link>http://localhost:1313/ionic-stacks/tags/ocean/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tags/ocean/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Seawater</title>
+      <link>http://localhost:1313/ionic-stacks/tags/seawater/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tags/seawater/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>EDAC</title>
       <link>http://localhost:1313/ionic-stacks/tags/edac/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tags/edac/</guid>
       <description></description>
@@ -22,7 +42,7 @@
     <item>
       <title>Energy-Efficiency</title>
       <link>http://localhost:1313/ionic-stacks/tags/energy-efficiency/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tags/energy-efficiency/</guid>
       <description></description>
@@ -32,7 +52,7 @@
     <item>
       <title>First-Principles</title>
       <link>http://localhost:1313/ionic-stacks/tags/first-principles/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tags/first-principles/</guid>
       <description></description>
@@ -42,7 +62,7 @@
     <item>
       <title>Regeneration</title>
       <link>http://localhost:1313/ionic-stacks/tags/regeneration/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tags/regeneration/</guid>
       <description></description>
@@ -52,7 +72,7 @@
     <item>
       <title>Second Law</title>
       <link>http://localhost:1313/ionic-stacks/tags/second-law/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tags/second-law/</guid>
       <description></description>
@@ -62,7 +82,7 @@
     <item>
       <title>Thermodynamics</title>
       <link>http://localhost:1313/ionic-stacks/tags/thermodynamics/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tags/thermodynamics/</guid>
       <description></description>

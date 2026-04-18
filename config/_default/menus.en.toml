@@ -15,84 +15,42 @@
   pageRef = "about"
   weight = 1
 
-# 1.0 Carbon Dioxide Removal (CDR)
+# 1.0 Sectors
 [[main]]
-  name = 'CDR'
-  pageRef = "tech/cdr"
-  identifier = "cdr"
+  name = 'Sectors'
+  pageRef = "tech/sectors"
+  identifier = "sectors"
   weight = 10
 
 # 1.1 Direct Air Capture (DAC)
 [[main]]
-  name = "Air"
-  pageRef = "tech/cdr/dac"
-  parent = "cdr"
+  name = "Direct Air Capture"
+  pageRef = "tech/sectors/dac"
+  parent = "sectors"
   weight = 1
 
 # 1.2 Marine Carbon Dioxide Removal (mCDR)
 [[main]]
-  name = "Ocean"
-  pageRef = "tech/cdr/mcdr"
-  parent = "cdr"
+  name = "Marine Carbon Dioxide Removal"
+  pageRef = "tech/sectors/mcdr"
+  parent = "sectors"
   weight = 2
 
-# 2.0 Power-to-X (PtX)
+# 1.3 Power-to-X (PtX)
 [[main]]
-  name = 'PtX'
-  pageRef = "tech/ptx"
-  identifier = "ptx"
-  weight = 20
-
-# 2.1 Syngas
-[[main]]
-  name = "Syngas"
-  pageRef = "tech/ptx/syngas"
-  parent = "ptx"
-  weight = 1
-
-# 2.2 eFuels
-[[main]]
-  name = "eFuels"
-  pageRef = "tech/ptx/efuels"
-  parent = "ptx"
-  weight = 2
-
-# 2.3 eChemicals
-[[main]]
-  name = "eChemicals"
-  pageRef = "tech/ptx/echemicals"
-  parent = "ptx"
+  name = "Power-to-X"
+  pageRef = "tech/sectors/ptx"
+  parent = "sectors"
   weight = 3
 
-# 3.0 Industrial Decarbonization
-[[main]]
-  name = 'Industry'
-  pageRef = "tech/industry"
-  identifier = "industry"
-  weight = 30
-
-# 3.1 Minerals
+# 1.4 Minerals
 [[main]]
   name = "Minerals"
-  pageRef = "tech/industry/minerals"
-  parent = "industry"
-  weight = 1
+  pageRef = "tech/sectors/minerals"
+  parent = "sectors"
+  weight = 4
 
-# 3.2 Cement
-[[main]]
-  name = "Cement"
-  pageRef = "tech/industry/cement"
-  parent = "industry"
-  weight = 2
-
-# 3.3 Water Desalination
-[[main]]
-  name = "Desalination"
-  pageRef = "tech/industry/desalination"
-  parent = "industry"
-  weight = 3
-
-# 4.0 Technical Libraby
+# 2.0 Technical Index
 [[main]]
   name = 'Tech Index'
   pageRef = "tech"
