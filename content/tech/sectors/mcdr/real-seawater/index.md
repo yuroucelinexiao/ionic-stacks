@@ -5,6 +5,8 @@ list_type: "mcdr"
 draft: false
 showWordCount: false
 showTableOfContents: true
+showHero: true
+heroStyle: background
 summary: "everything hard about seawater"
 categories: ["Marine Carbon Dioxide Removal (mCDR) Deep Dive"]
 tags: ["ocean", "seawater"]

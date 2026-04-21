@@ -1,0 +1,17 @@
+<div class="flex flex-wrap flex-row items-center">
+  {{ range .Site.Params.article.sharingLinks }}
+    {{ partial "sharing-link.html" (dict "context" $ "platform" .) }}
+  {{ end }}
+
+  <button 
+    onclick="navigator.clipboard.writeText(window.location.href); alert('Link copied to clipboard!');" 
+    title="Copy Link" 
+    class="ml-2 text-neutral-500 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400 transition-colors"
+    style="background: none; border: none; padding: 0; cursor: pointer; display: flex; align-items: center;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+      <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+    </svg>
+  </button>
+</div>

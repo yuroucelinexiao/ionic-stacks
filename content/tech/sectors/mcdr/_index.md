@@ -16,7 +16,7 @@ The ocean is a massive carbon sink. Covering ~71% of the Earth's surface, it act
 
 ---
 
-### Direct Ocean Capture (DOC)
+## Direct Ocean Capture (DOC)
 
 Electrochemical DOC relies on the ocean's natural carbonate equilibrium. The electrochemical stack uses electricity to split the incoming seawater to generate acids and bases. When the seawater pH is shifted down using the acidic stream, the DIC is extracted as a concentrated CO<sub>2</sub> gas stream. The DIC-depleted water is then recombined with the alkaline stream to rebalance the pH and returned to the ocean. 
 
@@ -44,7 +44,7 @@ Electrochemical DOC relies on the ocean's natural carbonate equilibrium. The ele
 </div>
 
 ---
-### Ocean Alkalinity Enhancement (OAE)
+## Ocean Alkalinity Enhancement (OAE)
 
 OAE doesn't involve any CO<sub>2</sub> handling. Instead, this approach focuses on expanding the ocean's CO<sub>2</sub> absorption capacity. The electrochemical stack splits seawater or waste brine into an alkaline stream for ocean discharge and an acidic stream for use in other processes. The added alkalinity shifts the carbonate equilibrium in the ocean, converting dissolved aqueous CO<sub>2</sub> into bicarbonates, and restoring the ocean's natural buffering capacity.
 

@@ -9,9 +9,11 @@ showSummaryReadingTime: false
 showWordCount: false
 showPagination: false
 showTaxonomies: false
+showHero: true
+heroStyle: background
 build:
   list: never
   render: always
 description: "Landing page for all electrochemical sectors"
 ---
-Short blurb test for Sectors landing page.
+Sectors landing page.

@@ -5,6 +5,8 @@ list_type: "dac"
 draft: false
 showWordCount: false
 showTableOfContents: true
+showHero: true
+heroStyle: background
 summary: "Technical foundations on minimum work, actual work, and second law efficiencies for direct air capture."
 categories: ["Direct Air Capture (DAC) Deep Dive"]
 tags: ["eDAC", "Energy-Efficiency", "First-Principles", "Second Law", "Thermodynamics", "Regeneration"]

@@ -5,6 +5,8 @@ showTableOfContents: true
 showDate: false
 showWordCount: false
 showReadingTime: false
+showHero: true
+heroStyle: background
 build:
   list: never
   render: always
@@ -12,7 +14,7 @@ description: "About page that includes my mission statement, resume and cv downl
 ---
 
 {{<lead>}}
-I am a Mechanical Engineer specialized in the scale-up of electrochemical systems, with a focus on integrated CO<sub>2</sub> capture and conversion. I’m passionate about bringing lab-scale innovations into the real world, scaling electrochemical climate tech for industrial deployment and a sustainable future.
+I am a **Mechanical Engineer** specialized in the scale-up of electrochemical systems, with a focus on integrated CO<sub>2</sub> capture and conversion. I’m passionate about bringing lab-scale innovations into the real world, **scaling electrochemical climate tech for industrial deployment** and a sustainable future.
 {{</lead>}}
 
 ---
@@ -95,6 +97,8 @@ Recently, I've also been occupied with:
 
 I’d love to hear from you if you’d like to chat about scaling electrochemical climate tech, have suggestions for Ionic Stacks, or have questions about the PhD experience.
 
+<div class="flex justify-center">
 {{< button href="mailto:celine.y.xiao@gmail.com?subject=Hello%20from%20Ionic%20Stacks" target="_self" >}}
   Say hello 📩
 {{< /button >}}
+</div>

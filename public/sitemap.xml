@@ -4,18 +4,6 @@
 
   <url>
     <loc>http://localhost:1313/ionic-stacks/</loc>
-    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/</loc>
-    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/sectors/dac/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -23,30 +11,6 @@
   <url>
     <loc>http://localhost:1313/ionic-stacks/tech/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/sectors/mcdr/</loc>
-    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/sectors/minerals/</loc>
-    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/sectors/ptx/</loc>
-    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/ionic-stacks/tech/sectors/dac/dac-energy-efficiency/</loc>
-    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
