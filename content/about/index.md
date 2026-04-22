@@ -14,7 +14,7 @@ description: "About page that includes my mission statement, resume and cv downl
 ---
 
 {{<lead>}}
-I am a **Mechanical Engineer** specialized in the scale-up of electrochemical systems, with a focus on integrated CO<sub>2</sub> capture and conversion. I’m passionate about bringing lab-scale innovations into the real world, **scaling electrochemical climate tech for industrial deployment** and a sustainable future.
+I am a **Mechanical Engineer** dedicated to **scaling electrochemical climate tech** for the real world. My work, grounded in a Ph.D. in integrated CO<sub>2</sub> capture and conversion, focuses on taking innovations out of the lab and into industrial deployment to secure a sustainable future.
 {{</lead>}}
 
 ---

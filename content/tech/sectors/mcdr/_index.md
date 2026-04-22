@@ -28,7 +28,7 @@ Electrochemical DOC relies on the ocean's natural carbonate equilibrium. The ele
   %% define the nodes
     Intake[/"Intake Seawater"/]
     Stack[["Stack"]]
-    Pure[/"High-Purity CO<sub>2</sub>"/]
+    Pure[/"High-Purity CO₂"/]
     Outflow[/"Outflow Seawater"/]
 
   %% define the flow

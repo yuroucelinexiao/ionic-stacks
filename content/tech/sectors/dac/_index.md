@@ -27,16 +27,16 @@ The behaviour of CO<sub>2</sub> is determined by the acidity (pH) of its environ
   %% define the nodes
     Ambient[/"Ambient Air"/]
     Contactor["Air Contactor"]
-    Clean[/"CO<sub>2</sub>-Clean Air"/]
-    Pure[/"High-Purity CO<sub>2</sub>"/]
+    Clean[/"CO₂-Clean Air"/]
+    Pure[/"High-Purity CO₂"/]
     Stack[["Stack"]]
     
 
   %% define the flow
     Ambient --> Contactor
     Contactor --> Clean
-    Contactor --> |CO<sub>2</sub>-Rich| Stack
-    Stack --> |CO<sub>2</sub>-Lean| Contactor
+    Contactor --> |CO₂-Rich| Stack
+    Stack --> |CO₂-Lean| Contactor
     Stack --> Pure
 
    %% styling
@@ -58,9 +58,9 @@ These electrodes are like "switchable CO<sub>2</sub> magnets." Rather than circu
 
   %% define the nodes
     Ambient[/"Ambient Air"/]
-    Clean[/"CO<sub>2</sub>-Clean Air"/]
+    Clean[/"CO₂-Clean Air"/]
     Stack[["Stack"]]
-    Pure[/"High-Purity CO<sub>2</sub>"/]
+    Pure[/"High-Purity CO₂"/]
 
   %% define the flow
     Ambient --> Stack

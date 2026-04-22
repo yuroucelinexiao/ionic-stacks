@@ -22,11 +22,11 @@ Our world today is built on a foundation of chemicals and fuels. Traditionally, 
   flowchart LR
 
   %% define the nodes
-    Water[/"Water (H<sub>2</sub>O)"/]
-    CO2[/"Carbon Dioxide (CO<sub>2</sub>)"/]
+    Water[/"Water (H₂O)"/]
+    CO2[/"Carbon Dioxide (CO₂)"/]
     Stack[["Stack"]]
-    Hydrogen[/"Hydrogen (H<sub>2</sub>)"/]
-    Syngas[/"Syngas (H<sub>2</sub> + CO)"/]
+    Hydrogen[/"Hydrogen (H₂)"/]
+    Syngas[/"Syngas (H₂ + CO)"/]
     Cprod[/"Carbon-Based Products"/]
 
   %% define the flow
