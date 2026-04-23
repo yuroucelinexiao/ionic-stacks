@@ -1,5 +1,5 @@
 ---
-title: "Marine Carbon Dioxide Removal (mCDR) | Ionic Stacks"
+title: "Marine Carbon Dioxide Removal (mCDR)"
 date: 2026-03-30
 showDate: false
 showSummaryDate: false

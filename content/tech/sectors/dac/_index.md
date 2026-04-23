@@ -1,5 +1,5 @@
 ---
-title: "Direct Air Capture (DAC) | Ionic Stacks"
+title: "Direct Air Capture (DAC)"
 date: 2026-03-31
 showDate: false
 showSummaryDate: false

@@ -1,5 +1,5 @@
 ---
-title: "Technical Index | Ionic Stacks"
+title: "Technical Index"
 date: 2026-03-31
 description: "Research and notes on electrochemical climate technologies."
 showDate: false

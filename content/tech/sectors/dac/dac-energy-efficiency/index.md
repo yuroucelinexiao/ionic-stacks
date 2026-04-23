@@ -1,5 +1,5 @@
 ﻿---
-title: "How much energy do we actually need to pull CO<sub>2</sub> out of thin air? | Ionic Stacks"
+title: "How much energy do we actually need to pull CO<sub>2</sub> out of thin air?"
 date: 2024-04-06
 list_type: "dac"
 draft: false
