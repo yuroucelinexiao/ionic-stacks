@@ -16,10 +16,10 @@ Electrochemistry uses renewable electricity to unlock reactions that would other
 
 {{<gallery>}}
 
-  {{< figure src="images/sectors/dac.png" href="/ionic-stacks/tech/sectors/dac/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Direct Air Capture</span>" >}}
-  {{< figure src="images/sectors/mcdr.png" href="/ionic-stacks/tech/sectors/mcdr/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Marine Carbon Dioxide Removal</span>" >}}
-  {{< figure src="images/sectors/ptx.png" href="/ionic-stacks/tech/sectors/ptx/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Power-to-X</span>" >}}
-  {{< figure src="images/sectors/minerals.png" href="/ionic-stacks/tech/sectors/minerals/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Minerals</span>" >}}
+  {{< figure src="/ionic-stacks/images/sectors/dac.png" alt="Direct Air Capture" href="/ionic-stacks/tech/sectors/dac/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Direct Air Capture</span>" >}}
+  {{< figure src="/ionic-stacks/images/sectors/mcdr.png" alt="Marine Carbon Dioxide Removal" href="/ionic-stacks/tech/sectors/mcdr/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Marine Carbon Dioxide Removal</span>" >}}
+  {{< figure src="/ionic-stacks/images/sectors/ptx.png" alt="Power-to-X" href="/ionic-stacks/tech/sectors/ptx/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Power-to-X</span>" >}}
+  {{< figure src="/ionic-stacks/images/sectors/minerals.png" alt="Minerals" href="/ionic-stacks/tech/sectors/minerals/" target="_self" figureClass="grid-w100 md:grid-w50 lg:grid-w25" nozoom=true caption="<span style='font-size: 12pt; display: block; padding-bottom: 2rem;'>Minerals</span>" >}}
 
 {{</gallery>}}
 
