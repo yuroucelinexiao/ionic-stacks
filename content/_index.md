@@ -1,5 +1,5 @@
 ---
-title: "Welcome Page"
+title: "Electrochemical Climate Tech | Ionic Stacks"
 ---
 
 {{<lead >}}

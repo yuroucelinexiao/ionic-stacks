@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Yurou Celine Xiao | Ionic Stacks"
 date: 2026-04-01
 showTableOfContents: true
 showDate: false

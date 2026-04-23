@@ -1,5 +1,5 @@
 ---
-title: "Power-to-X (PtX)"
+title: "Power-to-X (PtX) | Ionic Stacks"
 date: 2026-03-30
 showDate: false
 showSummaryDate: false

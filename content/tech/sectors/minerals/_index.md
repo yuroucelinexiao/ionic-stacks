@@ -1,5 +1,5 @@
 ---
-title: "Minerals"
+title: "Minerals | Ionic Stacks"
 date: 2026-03-30
 showDate: false
 showSummaryDate: false

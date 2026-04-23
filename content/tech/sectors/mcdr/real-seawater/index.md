@@ -1,5 +1,5 @@
 ---
-title: "When electrochemistry meets the open seas"
+title: "When electrochemistry meets the open seas | Ionic Stacks"
 date: 2026-04-11
 list_type: "mcdr"
 draft: false
