@@ -14,7 +14,7 @@ description: "About page that includes my mission statement, resume and cv downl
 ---
 
 {{<lead>}}
-I am a **Mechanical Engineer** dedicated to **scaling electrochemical climate tech** for the real world. My work, grounded in a Ph.D. in integrated CO<sub>2</sub> capture and conversion, focuses on taking innovations out of the lab and into industrial deployment to secure a sustainable future.
+I'm a **Mechanical Engineer** on a mission to take electrochemistry out of the lab and into the field. With a Ph.D. in integrated CO<sub>2</sub> capture and electrolysis, I am committed to **scaling electrochemical climate tech** for a sustainable future.
 {{</lead>}}
 
 ---
@@ -95,7 +95,7 @@ Recently, I've also been occupied with:
 * Rotating my Monstera around the house to find the optimal sunlight and maximize fenestrations. 🌿
 * Tweaking traditional East and South Asian recipes to incorporate more fiber and protein without compromising authenitc flavours. Well, some compromises, because fat is flavour, but I don't want my doctor to get mad at me. 🍳
 
-I’d love to hear from you if you’d like to chat about scaling electrochemical climate tech, have suggestions for Ionic Stacks, or have questions about the PhD experience.
+I’d love to hear from you if you’d like to chat about scaling electrochemical climate tech, have suggestions for Ionic Stacks, or have questions about the Ph.D. experience.
 
 <div class="flex justify-center">
 {{< button href="mailto:celine.y.xiao@gmail.com?subject=Hello%20from%20Ionic%20Stacks" target="_self" >}}

@@ -22,7 +22,7 @@ title = "Ionic Stacks"
    headline = "Electrochemical Scale-up Engineer"
    bio = "Electrochemical Scale-up Engineer"
    links = [
-#     { email = "mailto:hello@your_domain.com" },
+     
 #     { link = "https://link-to-some-website.com/" },
 #     { discord = "https://discord.gg/invitecode" },
 #     { github = "https://github.com/username" },
@@ -30,6 +30,7 @@ title = "Ionic Stacks"
 #     { google = "https://www.google.com/" },
      { linkedin = "https://www.linkedin.com/in/celine-xiao/" },
      { google-scholar = "https://scholar.google.com/citations?user=EW0G8dkAAAAJ&hl=en" },
+     { email = "mailto:celine.y.xiao@gmail.com" },
 #     { instagram = "https://instagram.com/username" },
 #     { orcid = "https://orcid.org/userid" },
 #     { researchgate = "https://www.researchgate.net/profile/username" },
