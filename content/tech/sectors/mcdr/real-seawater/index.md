@@ -9,7 +9,7 @@ showHero: true
 heroStyle: background
 summary: "everything hard about seawater"
 categories: ["Marine Carbon Dioxide Removal (mCDR) Deep Dive"]
-tags: ["ocean", "seawater"]
+tags: ["Ocean", "Seawater", "DIC", "Chlorine", "Magnesium", "Calcium", "Precipitates", "First-Principles"]
 ---
 {{< katex >}}
 

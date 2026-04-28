@@ -29,7 +29,7 @@ Where:
 - \(T\) is the temperature (\(298.15 \text{ K}\))
 - \(x_i\) is the mole fraction of gas \(i\) (\(x_1\) is \(\text{CO}_2\) and \(x_2\) is everything else)
 
-Note the negative sign here! \(\Delta G_{ \text{mix}}\) itself is negative because mixing is a spontaneous process, and \(W_{ \text{min}}\) will be positive because we have to put in work. Sprinkle in some algebra to normalize the equation for 1 mole of \(\text{CO}_2\). The negative sign then cancels out due to a log identity. The equation becomes:
+Note the negative sign here! \(\Delta G_{ \text{mix}}\) itself is negative because mixing is a spontaneous process, and \(W_{ \text{min}}\) will be positive because we have to put in work. Sprinkle in some algebra to normalize the equation for 1 mole of CO<sub>2</sub>. The negative sign then cancels out due to a log identity. The equation becomes:
 
 <div style="margin: 0 auto; text-align: center;">
 \(W_{ \text{min}}=RT \left[ \ln \left( \dfrac{1}{x_ \text{in}} \right)+ \dfrac{1-{x_ \text{in}}}{x_ \text{in}} \ln \left( \dfrac{1}{1-{x_ \text{in}}} \right) \right]\)

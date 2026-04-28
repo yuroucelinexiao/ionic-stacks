@@ -16,4 +16,3 @@ build:
   render: always
 description: "Landing page for all electrochemical sectors"
 ---
-Sectors landing page.

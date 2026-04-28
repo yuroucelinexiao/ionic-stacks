@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2026 Yurou Celine Xiao</copyright>
-    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/tags/first-principles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/tags/first-principles/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How much energy do we actually need to pull CO&lt;sub&gt;2&lt;/sub&gt; out of thin air? | Ionic Stacks</title>
+      <title>When electrochemistry meets the open seas</title>
+      <link>http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/</guid>
+      <description>everything hard about seawater</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/featured.png" />
+    </item>
+    
+    <item>
+      <title>How much energy do we actually need to pull CO&lt;sub&gt;2&lt;/sub&gt; out of thin air?</title>
       <link>http://localhost:1313/ionic-stacks/tech/sectors/dac/dac-energy-efficiency/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       

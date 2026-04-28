@@ -54,7 +54,7 @@
 [[main]]
   name = 'Tech Index'
   pageRef = "tech"
-  weight = 40
+  weight = 20
 
 #[[main]]
 #  name = "Blog"
