@@ -79,8 +79,10 @@ I'm a **Mechanical Engineer** on a mission to take electrochemistry out of the l
 ## Education
 {{<timeline >}}
   {{<timelineItem icon="graduation-cap" header="Ph.D. Mechanical Engineering" badge="2025" subheader="University of Toronto, Toronto, ON" >}}
-    <b>Thesis:</b> Electrochemical systems for reactive capture of CO<sub>2</sub>
-    <b>Supervisor:</b> Prof. David Sinton
+    <b>Thesis:</b> Electrochemical systems for reactive capture of CO<sub>2</sub><br>
+    <b>Supervisor:</b> Prof. David Sinton<br>
+    <br>
+    <a href="../tech/#peer-reviewed-publications">Peer-Reviewed Publications</a>
   {{</timelineItem >}}
 
   {{<timelineItem icon="graduation-cap" header="B.A.Sc. Mechanical Engineering" badge="2020" subheader="University of Alberta, Edmonton, AB" >}}

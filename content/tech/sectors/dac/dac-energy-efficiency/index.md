@@ -17,7 +17,7 @@ tags: ["eDAC", "Energy-Efficiency", "First-Principles", "Second Law", "Thermodyn
 
 There's nothing engineers love more than energy-efficient systems. In a perfect system, 100% of the energy input performs useful work. When it comes to direct air capture, useful work means gathering dispersed CO<sub>2</sub> molecules from the air into a concentrated gas stream. This process decreases entropy and is non-spontaneous. Thus, there is a thermodynamic minimum work of separation (\(W_{ \text{min}}\)), the absolute energy floor for a reversible, 100% efficient process.
 
-To calculate \(W_{ \text{min}}\), we turn to the Gibbs free energy of mixing (\( \Delta G_{ \text{mix}}\)). We assume constant temperature and pressure, and treat air as an ideal gas where the enthalpy of mixing is zero (\(\Delta H_{ \text{mix}}=0\)). Gibbs free energy is derived from the First and Second Laws of Thermodynamics and represents the work needed to overcome the tendency of molecules to disperse and mix (some statistical mechanics required).
+To calculate \(W_{ \text{min}}\), we turn to the **Gibbs free energy of mixing (\( \Delta G_{ \text{mix}}\))**. We assume constant temperature and pressure, and treat air as an ideal gas where the enthalpy of mixing is zero (\(\Delta H_{ \text{mix}}=0\)). Gibbs free energy is derived from the **First and Second Laws of Thermodynamics** and represents the work needed to overcome the tendency of molecules to disperse and mix (some statistical mechanics required).
 
 <div style="margin: 0 auto; text-align: center;">
 \(W_{ \text{min}}=- \Delta G_{ \text{mix}}=-nRT \sum x_i \ln(x_i)\)
@@ -57,7 +57,7 @@ Real systems involve irreversibilities (e.g. fluid friction, thermal gradients, 
 
 CO<sub>2</sub> is very dilute in the atmosphere and capturing 1 tonne of CO<sub>2</sub> requires processing ~2.62 million m<sup>3</sup> of air (\(V_{ \text{air}}\)), assuming a 50% capture efficiency. These CO<sub>2</sub> capture units, or air contactors, use structured packing with high surface-area-to-volume ratios to maximize the reaction interface. Imagine, perhaps, a tightly layered corrugated cardboard structure.
 
-High-powered fans are needed to overcome the pressure drop (\( \Delta P\)) and push the air through. The specific fan energy (\(E_{\text{fan}}\)) can be calculated using the following equation, assuming a \( \Delta P\) of 100 Pa and fan efficiency (\(\eta_{\text{fan}}\)) of 70%:
+High-powered fans are needed to **overcome the pressure drop (\( \Delta P\))** and push the air through. The specific fan energy (\(E_{\text{fan}}\)) can be calculated using the following equation, assuming a \( \Delta P\) of 100 Pa and fan efficiency (\(\eta_{\text{fan}}\)) of 70%:
 
 <div style="margin: 0 auto; text-align: center;">
 \(E_{\text{fan}} = \dfrac{V_{ \text{air}} \Delta P}{ \eta_{\text{fan}}}\)
@@ -71,7 +71,7 @@ The capture efficiency and \( \Delta P\) assumptions are slightly more conservat
 
 **The second (perhaps much more daunting) challenge: separating CO<sub>2</sub> from the sorbent.**
 
-Sorbent selection is sticky business. A delicate balance needs to be achieved: strong-binding sorbents have fast reaction kinetics and can efficiently remove CO<sub>2</sub> from air, but if the binding is too strong, massive amounts of energy are required to release it. Conventional thermal-swing processes use high-grade heat to break these chemical bonds and regenerate the sorbent. In  real systems, the applied heat is much more than the theoretical energy of the bond because it has to account for heating up the CO<sub>2</sub> and everything around it, while overcoming the activation energy barrier.
+Sorbent selection is sticky business. A delicate balance needs to be achieved: **strong-binding sorbents have fast reaction kinetics** and can efficiently remove CO<sub>2</sub> from air, but if the binding is too strong, **massive amounts of energy are required to release it**. Conventional thermal-swing processes use high-grade heat to break these chemical bonds and regenerate the sorbent. In  real systems, the applied heat is much more than the theoretical energy of the bond because it has to account for heating up the CO<sub>2</sub> and everything around it, while overcoming the activation energy barrier.
 
 In the Carbon Engineering process, a precipitation step was added after the air contactor to reduce the energy wasted on water evaporation. Even so, a good chunk of thermal energy was used for sorbent regeneration at 900&deg;C:
 
@@ -104,9 +104,9 @@ Below is a summary of the energy consumption reported by select companies, adapt
 
 ## Electrochemical direct air capture
 
-While there are many ways to reduce energy consumption, one way forward is turning to electrochemistry. These systems use different sorbent regeneration mechanisms that more precisely target the CO<sub>2</sub>-sorbent bond, eliminating the bulk-heating requirements of conventional processes entirely.
+While there are many ways to reduce energy consumption, one way forward is turning to electrochemistry. These systems use different sorbent regeneration mechanisms that **more precisely target the CO<sub>2</sub>-sorbent bond**, eliminating the bulk-heating requirements of conventional processes entirely.
 
-As the global energy landscape evolves, the industrial deployment of direct air capture must align with the availability of excess renewable electricity. Electrochemical systems are fully electrified and can be strategically installed in remote regions with ample renewable capacity. Modular and flexible, they are a strong contender for scalable and sustainable carbon removal technology.
+As the global energy landscape evolves, the industrial deployment of direct air capture must align with the **availability of excess renewable electricity**. Electrochemical systems are fully electrified and can be strategically installed in remote regions with ample renewable capacity. **Modular and flexible**, they are a strong contender for scalable and sustainable carbon removal technology.
 
 ## References
 

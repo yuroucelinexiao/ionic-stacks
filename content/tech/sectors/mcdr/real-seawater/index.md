@@ -7,14 +7,14 @@ showWordCount: false
 showTableOfContents: true
 showHero: true
 heroStyle: background
-summary: "everything hard about seawater"
+summary: "Challenges and solutions to working with real seawater in electrolyzers"
 categories: ["Marine Carbon Dioxide Removal (mCDR) Deep Dive"]
 tags: ["Ocean", "Seawater", "DIC", "Chlorine", "Magnesium", "Calcium", "Precipitates", "First-Principles"]
 ---
 {{< katex >}}
 
 ## Seawater composition
-Synthetic seawater is a great laboratory tool for studying marine-based technologies. However, the ocean is a living electrolyte, and not so forgiving. Even after we take out the fish, seaweed, and sand, we are still left with a complex mix of ions. The table below summarizes the major constituents of seawater, adapted from Sverdrup and Armbrust[^1]:
+Synthetic seawater is a great laboratory tool for studying marine-based technologies. However, the ocean is a living electrolyte, and not so forgiving. Even after we take out the fish, seaweed, and sand, we are still left with **a complex mix of ions**. The table below summarizes the major constituents of seawater, adapted from Sverdrup and Armbrust[^1]:
 
 <div style="width: fit-content; margin: 0 auto;">
 
@@ -31,7 +31,7 @@ Synthetic seawater is a great laboratory tool for studying marine-based technolo
 </div>
 
 ## Only ~2 mM of DIC
-**Challenge:** From the [chemical inventory](#seawater-composition) above, we can immediately see the primary bottleneck of mCDR: the dilute concentration of DIC (primarily in the form of bicarbonate). In an ideal system, ~11,360 tonnes of seawater needs to be processed to extract 1 tonne of CO<sub>2</sub>. In real systems, the volume of water required increases based on the target pH of the electrochemical stack (which determines CO<sub>2</sub> speciation based on the Henderson-Hasselbalch equation), and the time allowed for CO<sub>2</sub> degassing (which is governed by Fick's Law of Diffusion and two-film boundary layer equations). The electrical energy required for the intake pumps can quickly add up if large volumes of water need to be pumped over a steep pressure drop (\(\Delta P\)).
+**Challenge:** From the [chemical inventory](#seawater-composition) above, we can immediately see the primary bottleneck of mCDR: the dilute concentration of DIC (primarily in the form of bicarbonate). In an ideal system, ~11,360 tonnes of seawater needs to be processed to extract 1 tonne of CO<sub>2</sub>. In real systems, the volume of water required increases based on the **target pH of the electrochemical stack** (which determines CO<sub>2</sub> speciation based on the Henderson-Hasselbalch equation), and the **time allowed for CO<sub>2</sub> degassing** (which is governed by Fick's Law of Diffusion and two-film boundary layer equations). The electrical energy required for the intake pumps can quickly add up if large volumes of water need to be pumped over a steep pressure drop (\(\Delta P\)).
 
 Try the slider below to contextualize how much water we would have to process to extract 1 tonne of CO<sub>2</sub>. The estimation assumes a composite acid dissociation constant (\(pK_a\)) of 5.84[^2], which considers the dehydration of carbonic acid and seawater salinity, and a volumetric mass transfer coefficient (\(k_La\)) of 0.045 s<sup>-1</sup>, which is representative of an optimized industrial-scale degasser.
 
@@ -114,16 +114,16 @@ Try the slider below to contextualize how much water we would have to process to
   calculateThermodynamics();
 </script>
 
-**Solution:** To reduce the energy requirement of intake pumps, mCDR systems can minimize the (\(\Delta P\)) through wide, shallow, open-channel flow designs. The electrochemical stack can also be suspended in a flowing water stream, leveraging the power of gravitational and tidal forces for passive pumping. Although this design entirely eliminates the mechanical pumps, it introduces variability in the flow rate and stricter material requirements.
+**Solution:** To reduce the energy requirement of intake pumps, mCDR systems can **minimize the \(\Delta P\)** through wide, shallow, open-channel flow designs. The electrochemical stack can also be suspended in a flowing water stream, leveraging the power of gravitational and tidal forces for passive pumping. Although this design entirely eliminates the mechanical pumps, it introduces variability in the flow rate and stricter material requirements.
 
 ## Microbes and particulates
-**Challenge:** Electrolyzers are notoriously sensitive to solid matter. Microorganisms and suspended particulates will not only clog narrow electrolyte flow channels, but also foul the membranes and electrodes, rapidly degrading stack performance. The immediate engineering response is, of course, filtration. However, the pumping energy scales directly with the volume of water processed and the pressure drop of the filters required to achieve high purity.
+**Challenge:** Electrolyzers are notoriously sensitive to solid matter. Microorganisms and suspended particulates will not only clog narrow electrolyte flow channels, but also foul the membranes and electrodes, **rapidly degrading stack performance**. The immediate engineering response is, of course, **filtration**. However, the pumping energy scales directly with the volume of water processed and the pressure drop of the filters required to achieve high purity.
 
-**Solution:** Fortunately, many existing coastal facilities already have high water purification standards. By integrating mCDR stacks directly downstream of desalination plants or once-through power plant cooling systems, the pumping and filtration costs are significantly reduced. Alternatively, the stack design can be made robust enough to survive the biological load through periodic cleaning. This includes hydraulic backwashing and periodic polarity reversal (PPR) which dissolves organic matter through localized pH swings. However, this approach sacrifices total system uptime and increase hardware complexity.
+**Solution:** Fortunately, many existing coastal facilities already have high water purification standards. By **integrating mCDR stacks directly downstream** of desalination plants or once-through power plant cooling systems, the pumping and filtration costs are significantly reduced. Alternatively, the stack design can be made robust enough to survive the biological load through **periodic cleaning**. This includes hydraulic backwashing and periodic polarity reversal (PPR) which dissolves organic matter through localized pH swings. However, this approach sacrifices total system uptime and increase hardware complexity.
 
 ## Chlorine evolution
 
-**Challenge:** Going back to the [seawater composition](#seawater-composition) table again, we see that Cl<sup>-</sup> is the number 1 ion floating in the ocean. On the anode, Cl<sup>-</sup> can oxidize and evolve into toxic chlorine gas (Cl<sub>2</sub>) or bleach (ClO<sup>-</sup>), posing a threat to both the long-term operation of the electrochemical stack and the marine ecosystem. The chlorine evolution reaction (ClER) diverts anodic current away from the target reaction, which is to produce protons and generate an acidic stream for either CO<sub>2</sub> extraction or valorization, reducing the energy efficiency of the overall process.
+**Challenge:** Going back to the [seawater composition](#seawater-composition) table again, we see that Cl<sup>-</sup> is the number 1 ion floating in the ocean. On the anode, **Cl<sup>-</sup> can oxidize and evolve into toxic chlorine gas (Cl<sub>2</sub>) or bleach (ClO<sup>-</sup>)**, posing a threat to both the long-term operation of the electrochemical stack and the marine ecosystem. The chlorine evolution reaction (ClER) diverts anodic current away from the target reaction, which is to produce protons and generate an acidic stream for either CO<sub>2</sub> extraction or valorization, reducing the energy efficiency of the overall process.
 
 **Solution:** Chlorine generation can be suppressed by altering the reaction kinetics and thermodynamics at the anode, restricting the local mass transfer of Cl<sup>-</sup> at the boundary layer, or flowing seawater in separate compartments to physically isolate the anode[^3].
 - **Kinetics and thermodynamics:** The thermodynamic potential for ClER is close to the target proton-producing oxygen evolution reaction (OER):
@@ -141,9 +141,9 @@ Try the slider below to contextualize how much water we would have to process to
 
 ## Magnesium and calcium precipitates
 
-**Challenge:** Going back to the [seawater composition](#seawater-composition) table one last time, we see that Mg<sup>2+</sup> and Ca<sup>2+</sup> also exist in significant quantities. As the cathode generates OH<sup>-</sup> to produce the target alkaline stream, the localized high-pH environment precipitates Mg<sup>2+</sup> as Mg(OH)<sub>2</sub> and shifts the bicarbonate equilibrium to precipitate Ca<sup>2+</sup> as CaCO<sub>3</sub>. These precipitates passivate the catalyst, clog the flow channels, and rupture the ion-exchange membranes.
+**Challenge:** Going back to the [seawater composition](#seawater-composition) table one last time, we see that Mg<sup>2+</sup> and Ca<sup>2+</sup> also exist in significant quantities. As the cathode generates OH<sup>-</sup> to produce the target alkaline stream, the localized high-pH environment **precipitates** Mg<sup>2+</sup> as Mg(OH)<sub>2</sub> and shifts the bicarbonate equilibrium to precipitate Ca<sup>2+</sup> as CaCO<sub>3</sub>. These precipitates passivate the catalyst, clog the flow channels, and rupture the ion-exchange membranes.
 
-**Solution:** Similar to the fight against chlorine generation, seawater can be confined to central flow channels to keep Mg<sup>2+</sup> and Ca<sup>2+</sup> away from the cathode's localized alkaline environment. An alternative, operationally driven, head-on approach continuously removes the mineral scale through frequent polarity reversals, periodic solubility shifts, and raw hydrodynamic forces.
+**Solution:** Similar to the fight against chlorine generation, seawater can be **confined to central flow channels** to keep Mg<sup>2+</sup> and Ca<sup>2+</sup> away from the cathode's localized alkaline environment. An alternative, **operationally driven**, head-on approach continuously removes the mineral scale through frequent polarity reversals, periodic solubility shifts, and raw hydrodynamic forces.
 
 ## References
 

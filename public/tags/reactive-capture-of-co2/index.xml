@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reactive Capture of CO2 on Ionic Stacks</title>
+    <link>http://localhost:1313/ionic-stacks/tags/reactive-capture-of-co2/</link>
+    <description>Recent content in Reactive Capture of CO2 on Ionic Stacks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2026 Yurou Celine Xiao</copyright>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/tags/reactive-capture-of-co2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RCC-Solvent-Screening</title>
+      <link>http://localhost:1313/ionic-stacks/tech/sectors/ptx/rcc-solvent-screening/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tech/sectors/ptx/rcc-solvent-screening/</guid>
+      <description>rcc-solvent-screening</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Permanence on Ionic Stacks</title>
+    <link>http://localhost:1313/ionic-stacks/tags/permanence/</link>
+    <description>Recent content in Permanence on Ionic Stacks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2026 Yurou Celine Xiao</copyright>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/tags/permanence/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why don&#39;t we just plant more trees?</title>
+      <link>http://localhost:1313/ionic-stacks/tech/sectors/dac/plant-more-trees/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tech/sectors/dac/plant-more-trees/</guid>
+      <description>Investigating the land, time, and active intervention needed for reforestation.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ionic-stacks/tech/sectors/dac/plant-more-trees/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

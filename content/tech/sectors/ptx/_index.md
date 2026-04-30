@@ -69,3 +69,6 @@ CO<sub>2</sub> electrolysis can also generate multi-carbon (C<sub>2+</sub>) prod
 
 \(2CO_2 + 12H^+ + 12e^- \rightarrow C_2H_5OH + 3H_2O\)
 </div>
+
+---
+{{<list title="Sparking the Stock" cardView=true limit=6 where="Params.list_type" value="ptx">}}
