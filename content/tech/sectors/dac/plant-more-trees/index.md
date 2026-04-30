@@ -96,9 +96,9 @@ options: {
 Unmanaged forests are increasingly vulnerable to invasive species, pests, droughts, and wildfires[^7]. **As forests decay or burn, CO<sub>2</sub> is released back into the atmosphere.** High levels of human intervention would turn a natural ecosystem into a continuous industrial operation, and the associated energy use and CO<sub>2</sub> emissions need to be accounted for when calculating the net efficiency of this CDR strategy.
 
 ## Let's talk money
-To fairly compare CDR pathways, their **carbon storage permanence** must also be accounted for. Prado & Mac Dowell proposed a framework that evaluates **carbon leakage** over time to quantify the fraction of environmental damage effectively mitigated[^8]. They found a non-linear relationship between how long carbon is stored and its value to climate change mitigation. As the required time of permanence increases, the probability of natural reversals (e.g., fires, pests) or biological decay exponentially **increases the costs of nature-based pathways**.
+To fairly compare CDR pathways, their **carbon storage permanence** must also be accounted for. Prado & Mac Dowell proposed a framework that evaluates **carbon leakage** over time to quantify the fraction of environmental damage effectively mitigated[^8]. They found a non-linear relationship between how long carbon is stored and its value to climate change mitigation. As the required time of permanence increases, the probability of natural reversals (e.g., fires, pests) or biological decay **exponentially increases the costs of nature-based pathways**.
 
-The costs of the CDR pathways below are adapted from Prado & Mac Dowell and include the initial project capital, the ongoing monitoring, reporting, and verification (MRV), and the financial liability of potential carbon leakage.
+The costs of the CDR pathways below are adapted from Prado & Mac Dowell and include the initial project capital (the technology as it is today), the ongoing monitoring, reporting, and verification (MRV), and the financial liability of potential carbon leakage.
 
 <div style="width: fit-content; margin: 0 auto;">
 
@@ -107,8 +107,8 @@ The costs of the CDR pathways below are adapted from Prado & Mac Dowell and incl
 | Afforestation | 35–60 | 320–520 |
 | Biochar | 65–240 | 200–800 |
 | Bioenergy with Carbon Capture and Storage | 140–190 | 140–190 |
-| Direct Air Capture | 80–220 | 80–220 |
-| Enhanced Weathering | 640–840 | 640–840 |
+| Direct Air Capture | 640–840 | 640–840 |
+| Enhanced Weathering | 80–220 | 80–220 |
 
 </div>
 
@@ -117,7 +117,7 @@ The short-term benefits of afforestation should not be overlooked–it can buy u
 ## All CDR pathways are needed
 The 7–9 Gt<sub>CO2</sub>/year CDR target is in addition to aggressive decarbonization across all sectors. Therefore, **direct emission reduction** remains the priority mitigation strategy.
 
-To achieve the annual CDR targets needed to limit global warming, we need to **preserve our existing forests**, **plant new trees**, and **increase our collective removal capacity** through tech-based pathways. These engineered solutions can provide high-density, permanent sequestration to complement nature's limited carbon sink. Developing these tech-based solutions now will accelerate their economies of scale and ensure their risk-adjusted price is competitive with tree-planting, especially when we are looking millennia into the future.
+To achieve the annual CDR targets needed to limit global warming, we need to **preserve our existing forests**, **plant new trees**, and **increase our collective removal capacity** through tech-based pathways. These engineered solutions can provide high-density, permanent sequestration to complement nature's limited carbon sink. Developing these tech-based solutions now will accelerate their economies of scale and bring down their price to be potentially lower than tree-planting, especially when we are looking millennia into the future.
 
 ## References
 
