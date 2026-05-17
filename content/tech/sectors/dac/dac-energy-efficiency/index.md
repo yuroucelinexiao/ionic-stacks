@@ -1,6 +1,6 @@
 ﻿---
 title: "How much energy do we actually need to pull CO<sub>2</sub> out of thin air?"
-date: 2024-04-06
+date: 2026-04-01
 list_type: "dac"
 draft: false
 showWordCount: false
@@ -110,6 +110,6 @@ As the global energy landscape evolves, the industrial deployment of direct air 
 
 ## References
 
-[^1]: Keith, H., Holmes, G., St. Angelo, D. & Heidel, K. A process for capturing CO<sub>2</sub>‚ from the atmosphere. Joule 2, 1573-1594 (2018). https://doi.org/10.1016/j.joule.2018.05.006
+[^1]: Keith, H., Holmes, G., St. Angelo, D. & Heidel, K. A process for capturing CO<sub>2</sub>‚ from the atmosphere. *Joule* **2**, 1573-1594 (2018). https://doi.org/10.1016/j.joule.2018.05.006
 
-[^2]: Wang, E. et al. Reviewing direct air capture startups and emerging technologies. Cell Rep. Phys. Sci. 5, 101791 (2024). https://doi.org/10.1016/j.xcrp.2024.101791
+[^2]: Wang, E. et al. Reviewing direct air capture startups and emerging technologies. *Cell Rep. Phys. Sci.* **5**, 101791 (2024). https://doi.org/10.1016/j.xcrp.2024.101791

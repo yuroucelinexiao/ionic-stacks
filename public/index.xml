@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2026 Yurou Celine Xiao</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ionic-stacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Solvent lead generation for stable RCC electrolysis</title>
+      <link>http://localhost:1313/ionic-stacks/tech/sectors/ptx/rcc-solvent-screening/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tech/sectors/ptx/rcc-solvent-screening/</guid>
+      <description>RCC solvent screening using RDKit and regression models</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ionic-stacks/tech/sectors/ptx/rcc-solvent-screening/featured.png" />
+    </item>
     
     <item>
       <title>Why don&#39;t we just plant more trees?</title>
@@ -22,7 +32,7 @@
     <item>
       <title>When electrochemistry meets the open seas</title>
       <link>http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/</link>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tech/sectors/mcdr/real-seawater/</guid>
       <description>Challenges and solutions to working with real seawater in electrolyzers</description>
@@ -32,7 +42,7 @@
     <item>
       <title>How much energy do we actually need to pull CO&lt;sub&gt;2&lt;/sub&gt; out of thin air?</title>
       <link>http://localhost:1313/ionic-stacks/tech/sectors/dac/dac-energy-efficiency/</link>
-      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tech/sectors/dac/dac-energy-efficiency/</guid>
       <description>Technical foundations on minimum work, actual work, and second law efficiencies for direct air capture.</description>

@@ -71,4 +71,4 @@ CO<sub>2</sub> electrolysis can also generate multi-carbon (C<sub>2+</sub>) prod
 </div>
 
 ---
-{{<list title="Sparking the Stock" cardView=true limit=6 where="Params.list_type" value="ptx">}}
+{{<list title="Synthesizing the Stock" cardView=true limit=6 where="Params.list_type" value="ptx">}}

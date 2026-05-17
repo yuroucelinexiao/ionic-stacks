@@ -21,6 +21,8 @@ I'm a **Mechanical Engineer** on a mission to take electrochemistry out of the l
 ## Resume & CV
 **[Download Resume](celine-xiao-resume.pdf) {{< icon "download" >}}** *1-page professional overview*
 
+**[Download Experience Deck](celine-xiao-experience-deck.pdf) {{< icon "download" >}}** *technical highlights with photos*
+
 **[Download CV](celine-xiao-cv.pdf) {{< icon "download" >}}** *comprehensive academic record*
 
 ---

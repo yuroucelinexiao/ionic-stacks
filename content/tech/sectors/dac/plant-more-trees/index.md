@@ -123,16 +123,16 @@ To achieve the annual CDR targets needed to limit global warming, we need to **p
 
 [^1]: Smith, S. M. et al. (eds.) The State of Carbon Dioxide Removal 2024 - 2nd Edition. (2024). https://doi.org/10.17605/OSF.IO/F85QJ
 
-[^2]: Bastin, J.-F. et al. The global tree restoration potential. Science 365, 76-79 (2019). https://doi.org/10.1126/science.aax0848
+[^2]: Bastin, J.-F. et al. The global tree restoration potential. *Science* **365**, 76-79 (2019). https://doi.org/10.1126/science.aax0848
 
-[^3]: Bernet, R. How Much CO2 Does A Tree Absorb? One Tree Planted (2023). https://onetreeplanted.org/blogs/stories/how-much-co2-does-tree-absorb
+[^3]: Bernet, R. How Much CO<sub>2</sub> Does A Tree Absorb? *One Tree Planted* (2023). https://onetreeplanted.org/blogs/stories/how-much-co2-does-tree-absorb
 
-[^4]: Veldman, J. W. et al. Comment on "The global tree restoration potential". Science (2019). https://doi.org/10.1126/science.aay7976
+[^4]: Veldman, J. W. et al. Comment on "The global tree restoration potential". *Science* **366**, eaay7976 (2019). https://doi.org/10.1126/science.aay7976
 
-[^5]: ILRI, IUCN, FAO, WWF, UNEP & ILC. Rangelands Atlas. Nairobi Kenya: ILRI (2021). https://hdl.handle.net/10568/114064
+[^5]: ILRI, IUCN, FAO, WWF, UNEP & ILC. Rangelands Atlas. *Nairobi Kenya: ILRI* (2021). https://hdl.handle.net/10568/114064
 
-[^6]: Kelly, M. Managing Forests for Carbon, Resiliency, and Wildlife Habitat. Taking Action for Wildlife (2022). https://www.takingactionforwildlife.org/blog/2022/10/managing-forests-carbon-resiliency-wildlife-habitat
+[^6]: Kelly, M. Managing Forests for Carbon, Resiliency, and Wildlife Habitat. *Taking Action for Wildlife* (2022). https://www.takingactionforwildlife.org/blog/2022/10/managing-forests-carbon-resiliency-wildlife-habitat
 
-[^7]: Putney, J. D. et al. Introduction to Forest Carbon, Offsets and Markets. PNW 775 (2023). https://extension.oregonstate.edu/catalog/pnw-775-introduction-forest-carbon-offsets-markets
+[^7]: Putney, J. D. et al. Introduction to Forest Carbon, Offsets and Markets. *PNW* **775** (2023). https://extension.oregonstate.edu/catalog/pnw-775-introduction-forest-carbon-offsets-markets
 
-[^8]: Prado, A. & Mac Dowell, N. The cost of permanent carbon dioxide removal. Joule 7, 700–712 (2023). https://doi.org/10.1016/j.joule.2023.03.006
+[^8]: Prado, A. & Mac Dowell, N. The cost of permanent carbon dioxide removal. *Joule* **7**, 700–712 (2023). https://doi.org/10.1016/j.joule.2023.03.006

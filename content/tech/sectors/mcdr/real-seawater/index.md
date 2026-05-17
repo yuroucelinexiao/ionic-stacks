@@ -1,6 +1,6 @@
 ---
 title: "When electrochemistry meets the open seas"
-date: 2026-04-11
+date: 2026-04-13
 list_type: "mcdr"
 draft: false
 showWordCount: false
@@ -147,7 +147,7 @@ Try the slider below to contextualize how much water we would have to process to
 
 ## References
 
-[^1]: Sverdrup, K. A. & Armbrust, E. V. *An Introduction to the World's Oceans* 10th edn (McGraw-Hill, 2008).
+[^1]: Sverdrup, K. A. & Armbrust, E. V. An Introduction to the World's Oceans 10th edn (McGraw-Hill, 2008).
 
 [^2]: Millero, F. J., Graham, T. B., Huang, F., Bustos-Serrano, H. & Pierrot, D. Dissociation constants of carbonic acid in seawater as a function of salinity and temperature. *Mar. Chem.* **100**, 80-94 (2006). https://doi.org/10.1016/j.marchem.2005.12.001
 
