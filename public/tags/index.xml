@@ -20,11 +20,31 @@
     </item>
     
     <item>
+      <title>DOE</title>
+      <link>http://localhost:1313/ionic-stacks/tags/doe/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tags/doe/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Lead Generator</title>
       <link>http://localhost:1313/ionic-stacks/tags/lead-generator/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ionic-stacks/tags/lead-generator/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linear Regression</title>
+      <link>http://localhost:1313/ionic-stacks/tags/linear-regression/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ionic-stacks/tags/linear-regression/</guid>
       <description></description>
       
     </item>

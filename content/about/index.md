@@ -97,7 +97,7 @@ Recently, I've also been occupied with:
 
 * Building cardio endurance as a beginner runner, guided by an AI trainer who constantly tells me to drop my ego and slow down, because how else do you make small talk in the Bay Area these days? 👟
 * Rotating my Monstera around the house to find the optimal sunlight and maximize fenestrations. 🌿
-* Tweaking traditional East and South Asian recipes to incorporate more fiber and protein without compromising authenitc flavours. Well, some compromises, because fat is flavour, but I don't want my doctor to get mad at me. 🍳
+* Tweaking traditional East and South Asian recipes to incorporate more fiber and protein without compromising authentic flavours. Well, some compromises, because fat is flavour, but I don't want my doctor to get mad at me. 🍳
 
 I’d love to hear from you if you’d like to chat about scaling electrochemical climate tech, have suggestions for Ionic Stacks, or have questions about the Ph.D. experience.
 

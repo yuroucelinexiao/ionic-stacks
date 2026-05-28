@@ -1,6 +1,0 @@
-Solvent,SMILES,Stability_Hours,Max_Amine_pKa
-K-GLY,C(C(=O)O)N,13,9.60
-K-LYS,C(CCN)CC(C(=O)O)N,1,10.79
-K-PRO,C1CC(NC1)C(=O)O,2,10.60
-K-SER,C(C(C(=O)O)N)O,3,9.15
-K-SAR,CNCC(=O)O,5,10.35

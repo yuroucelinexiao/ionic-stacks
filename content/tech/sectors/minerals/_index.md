@@ -75,3 +75,6 @@ The electrochemical stack splits salt solutions into concentrated acidic and alk
 {{</mermaid >}}
 
 </div>
+
+---
+{{<list title="Mobilizing the Metals" cardView=true limit=6 where="Params.list_type" value="minerals">}}

@@ -101,7 +101,7 @@ Amino acids with higher amino-group pK<sub>a</sub> values are more nucleophilic,
     src="stability_vs_pka.png"
     alt="Stability vs. pKa"
     target="_self"
-    figureClass="grid-w50" >}}
+    figureClass="grid-w75" >}}
 
 </div>
 
@@ -149,7 +149,7 @@ To improve the accuracy and reliability of this model, we need more high-quality
 - **Design of experiments (DOE):** The next sets of experiments should target the limits and boundaries of the top descriptors. This will provide the variance needed to reduce sample collinearity.
 - **Applicability domain:** The model was trained on only amino acid salts and should not be directly extrapolated to predict other solvent classes. Including a wider range of solvents in the next set of experiments would make the model more robust.
 
-A suitable solvent for the integrated system needs to be both a **good capture agent** and a **good electrolyte**. Transport and electrochemical properties, including conductivity, viscosity, electrochemical stability, and catalyst interactions, are not typically considered in conventional carbon capture. With so many competing variables at play, an **experimentally informed model** provides a starting point that can drastically reduce the time and cost of laboratory screening.
+A suitable solvent for the integrated system needs to be both a **good capture agent** and a **good electrolyte**. Transport and electrochemical properties, including conductivity, viscosity, electrochemical stability, and catalyst interactions, are not typically considered in conventional carbon capture. With so many competing variables at play, an **experimentally-informed model** provides a starting point that can drastically reduce the time and cost of laboratory screening.
 
 ## References
 

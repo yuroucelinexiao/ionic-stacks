@@ -21,6 +21,19 @@ The central repository for technical deep dives, perspectives, and peer-reviewed
 ---
 ## Peer-Reviewed Publications
 
+### [25] Redox-decoupled electrolysis for direct air capture of CO<sub>2</sub>
+
+<div style="display: flex; align-items: flex-start; gap: 5rem; margin-bottom: 0rem;">
+  <div style="flex: 1; min-width: 250px; max-width: 300px;">
+    {{<figure src="../publications/liu-2026-redox-decoupled-dac.png" alt="Graphical abstract for Redox-decoupled electrolysis for direct air capture of CO2" >}}
+  </div>
+  <div style="flex: 2;">
+    <p><em><strong>Liu et al., Nature Chemical Engineering, 2026</strong></em></p>
+    <p>A decoupled electrohchemical system for direct air capture where CO<sub>2</sub> liberation and sorbent regeneration are spatially separated, achieving high current and energy efficiency via redox-decoupled electrolysis.</p>
+    <p><a href="../publications/liu-2026-redox-decoupled-dac.pdf">Article (PDF)</a> &nbsp;&middot;&nbsp; <a href="../publications/liu-2026-redox-decoupled-dac-si.pdf">Supplemental Information (PDF)</a></p>
+  </div>
+</div>
+
 ### [24] Efficient acidic CO<sub>2</sub> electrolysis with suppressed crossover in a separator-based membrane electrode assembly
 
 <div style="display: flex; align-items: flex-start; gap: 5rem; margin-bottom: 0rem;">
