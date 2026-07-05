@@ -37,7 +37,7 @@ Try the slider below to contextualize how much water we would have to process to
 
 <div style="background: #0B3A46; padding: 25px; border-radius: 12px; border: 1px solid #A6A6A6; color: white; font-family: sans-serif; max-width: 700px; margin: 0 auto;">
   
-  <h3 style="margin-top: 0; color: #B89C3F;">Seawater needed per tonne CO<sub>2</sub></h3>
+  <h3 style="margin-top: 0; color: #B89C3F; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">Seawater needed per tonne CO<sub>2</sub></h3>
 
   <label>Electrochemical stack target pH: <strong id="ph-val">5.0</strong> (max extractable CO<sub>2</sub>: <strong id="theo-yield">87</strong>%)</label>
   <input type="range" id="ph-slider" min="4.0" max="8.1" step="0.1" value="5.0" style="width: 100%; margin-top: 20px; accent-color: #B89C3F;">
@@ -64,7 +64,7 @@ Try the slider below to contextualize how much water we would have to process to
   const analogyOutput = document.getElementById('volume-analogy');
 
   const min_water = 11363; 
-  const pKa = 5.84; {{/* composite pKa for seawater*/}}
+  const pKa = 5.84; {{/* composite pKa for seawater */}}
   const k_La = 0.045; {{/* volumetric mass transfer coefficient (k_La) ranges between 0.01 to 0.1 s^(-1) */}}
 
   function getVolumeAnalogy(tonnes) {

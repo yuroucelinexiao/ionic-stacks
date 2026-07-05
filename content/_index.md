@@ -4,7 +4,7 @@ title: "Electrochemical Climate Tech | Ionic Stacks"
 
 {{<lead >}}
 
-Welcome to **Ionic Stacks**: A mechanical engineer's first-principles journey to demystify electrochemical climate tech, brutally confronting the greatest scaling challenges and criticisms today.
+Welcome to **Ionic Stacks**: A mechanical engineer's first-principles journey to explore, analyze, and demystify electrochemical climate tech.
 
 {{</lead >}}
 

@@ -4,7 +4,13 @@
 
   <url>
     <loc>http://localhost:1313/ionic-stacks/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/ionic-stacks/tech/sectors/minerals/battery-recycling-diaphragm-cell/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

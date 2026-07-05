@@ -69,7 +69,7 @@ The electrochemical stack splits salt solutions into concentrated acidic and alk
     Recovery --> Pure
     Recovery --> Salt
 
-   %% styling
+  %% styling
     classDef StackStyle padding:25px 50px,stroke-width:4px,font-weight:bold,font-size:18px;
     class Stack StackStyle
 {{</mermaid >}}
