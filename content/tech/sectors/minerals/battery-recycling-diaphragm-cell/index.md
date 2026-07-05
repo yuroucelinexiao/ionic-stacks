@@ -1,6 +1,6 @@
 ---
 title: "Salt splitting in a diaphragm cell for battery recycling"
-date: 2026-05-16
+date: 2026-07-05
 list_type: "minerals"
 draft: false
 showWordCount: false
@@ -100,7 +100,7 @@ Diaphragms feature macro- or nanospores that completely fill up with electrolyte
 </div>
 
 ## High current efficiency in diaphragm cells
-Electrochemically splitting Li<sub>2</sub>SO<sub>4</sub> produces acidic lithium bisulfate (LiHSO<sub>4</sub>) at the anode by locally generating H<sup>+</sup> and basic lithium hydroxide (LiOH) at the cathode by locally generating OH<sup>-</sup>. To **prevent the recombination of acid and base**, the concentration of the Li<sub>2</sub>SO<sub>4</sub> supporting electrolyte was kept high at 2 M to **outcompete the crossover** of the acid and base across the non-selective diaphragm.
+Electrochemically splitting Li<sub>2</sub>SO<sub>4</sub> produces acidic lithium bisulfate (LiHSO<sub>4</sub>) at the anode by locally generating H<sup>+</sup> and basic lithium hydroxide (LiOH) at the cathode by locally generating OH<sup>-</sup>. To **prevent the recombination of acid and base** inside the cell, the concentration of the Li<sub>2</sub>SO<sub>4</sub> supporting electrolyte was kept high at 2 M to **outcompete the crossover** of the acid and base across the non-selective diaphragm.
 
 ### All about concentration
 Managing the concentration of the acid in the anolyte and the base in the catholyte is the key to reducing unwanted ion migration.
